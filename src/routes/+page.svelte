@@ -4,7 +4,6 @@
 	import { fly } from 'svelte/transition';
 
 	import AnalogClock from '$lib/components/features/analog/AnalogClock.svelte';
-	import DigitalDisplays from '$lib/components/pages/clock/DigitalDisplays.svelte';
 	import { dictionary } from '$lib/stores/languageDictionary';
 	import { settings } from '$lib/stores/settings';
 	import { allThemes } from '$lib/stores/themes';
@@ -36,6 +35,5 @@
 	{/if}
 
 	<div class="h-full">
-		<DigitalDisplays />
 	</div>
 </section>
