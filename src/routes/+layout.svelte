@@ -6,6 +6,6 @@
 	const { children } = $props();
 </script>
 
-<Header bind:navOpen />
+<Header {navOpen} />
 
 {@render children()}
