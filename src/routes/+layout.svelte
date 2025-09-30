@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import Header from '$/lib/components/layout/Header.svelte';
 
 	let navOpen = $state(false);
 	let loading = $state(true);
