@@ -1,16 +1,11 @@
-<script lang="ts">
+<script>
 	import Header from '$/lib/components/layout/Header.svelte';
 
 	let navOpen = $state(false);
 
-	interface Props {
-		children: import('svelte').Snippet;
-	}
-	const { children }: Props = $props();
+	const { children } = $props();
 </script>
 
-<main>
-	<Header bind:navOpen />
+<Header bind:navOpen />
 
-	{@render children()}
-</main>
+{@render children()}
