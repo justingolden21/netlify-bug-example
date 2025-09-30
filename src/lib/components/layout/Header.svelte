@@ -1,9 +1,6 @@
 <script lang="ts">
-	// header - contains page title, menu, and quick action buttons
-	import { page } from '$app/state';
 
 	
-	import { dictionary } from '$lib/stores/languageDictionary';
 	import { settings } from '$lib/stores/settings';
 
 	interface Props {
@@ -52,15 +49,7 @@ to hide the cursor when idle -->
 		</div>
 
 		<span class="grow"></span>
-		<h1
-			class="hidden sm:flex md:hidden lg:flex self-center items-center justify-center gap-4 absolute left-0 right-0 pointer-events-none">
-			<div class="inline-block w-6 h-6">
-			
-			</div>
-			<span class="h4">
-				{$dictionary.pageNames[page.url.pathname.substring(1) || 'clock'] || ''}
-			</span>
-		</h1>
+		
 
 		
 	</div>
