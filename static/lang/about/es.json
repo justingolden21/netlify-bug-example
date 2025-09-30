@@ -1,0 +1,530 @@
+{
+	"clock": [
+		{
+			"title": "Resumen",
+			"paragraph": "Reloj Sencillo es un sitio web y una aplicación de reloj completamente personalizable. Puede personalizar los formatos de fecha y hora, mostrar un reloj analógico, mostrar el porcentaje de batería y personalizar el tamaño y los colores de la fuente. Se puede instalar de forma gratuita y sin anuncios en cualquier computadora o teléfono, incluso sin conexión."
+		},
+		{
+			"title": "Cambiar a Analógico y Digital",
+			"paragraph": "Haga clic en el botón '1' en la esquina superior izquierda o presione la tecla 'P' para alternar la pantalla principal. También puede ir a Configuración > Reloj > Pantallas."
+		}
+	],
+	"worldclock": [
+		{
+			"title": "Resumen",
+			"paragraph": "Elija entre cientos de zonas horarias, ingrese nombres personalizados para sus zonas horarias y modifique cómo muestra sus relojes mundiales."
+		}
+	],
+	"stopwatch": [
+		{
+			"title": "Resumen",
+			"paragraph": "El cronómetro ofrece más que simplemente funciones de inicio, parada y vueltas. Continuará funcionando incluso si se cierra la pestaña o la aplicación, y puede tener múltiples cronómetros, nombrarlos y comenzar varios cronómetros a la vez."
+		}
+	],
+	"pomodoro": [
+		{
+			"title": "Resumen",
+			"paragraph": "Un temporizador Pomodoro es una herramienta que le ayuda a concentrarse en una tarea y tomar descansos. La idea es que tiene tareas que toman un cierto número de 'pomodoros' (25 minutos) y entre cada uno de ellos, tiene un breve descanso (5 minutos). Después de un cierto número (5) de cortos descansos, el descanso es más largo (15 minutos). Esta técnica ayuda a estudiar, concentrarse o simplemente a completar tareas. En nuestro temporizador Pomodoro, puede personalizar las longitudes de los minutos y también crear una lista de tareas para hoy con la cantidad de 'pomodoros' que necesita cada una."
+		}
+	],
+	"chessclock": [
+		{
+			"title": "Resumen",
+			"paragraph": "Nuestro reloj de ajedrez ofrece más que solo dos temporizadores con tiempos personalizados. El juego puede pausarse, y puede elegir entre cuatro configuraciones diferentes de incremento. También puede personalizar los sonidos que se reproducen al cambiar, cuando le queda poco tiempo y cuando se agota el tiempo. Consulte nuestra lista de atajos de teclado para cambiar turnos y pausar."
+		}
+	],
+	"sunrisesunset": [
+		{
+			"title": "Resumen",
+			"paragraph": "Vea cuándo saldrá el sol, se pondrá el sol y más. Puede ver el crepúsculo, el amanecer, el mediodía, el nadir, la hora dorada y más, con descripciones completas de cada uno. También puede ver cuántas horas de luz del día están disponibles y cuántas horas faltan hasta el amanecer o el atardecer. Puede ingresar cualquier fecha, ubicación y zona horaria y obtener instantáneamente toda la información que necesita. También hay un botón de un solo clic para usar la fecha, la ubicación y la zona horaria actual. Por último, hay una tabla de días futuros y sus salidas y puestas de sol, y es completamente personalizable en la configuración."
+		}
+	],
+	"rubikscube": [
+		{
+			"title": "Resumen",
+			"paragraph": "La pantalla superior muestra un temporizador y una lista de tiempos, y la pantalla inferior muestra una mezcla. Puede personalizar estos paneles presionando los botones 1 y 2 en la parte superior. Puede presionar la barra espaciadora para iniciar y detener un temporizador. La lista de tiempos mostrará sus tiempos en la sesión actual, así como el promedio de tres y el promedio de cinco (promedio de tres sin mínimo y máximo)."
+		},
+		{
+			"title": "Sesiones",
+			"paragraph": "Puede hacer clic en 'Sesiones' para ver todas las sesiones, crear una nueva sesión, eliminar sesiones e incluso descargar un archivo CSV de sus estadísticas de sesión. También puede hacer clic en 'Sesión actual' para ver la sesión actual."
+		},
+		{
+			"title": "Mezclas",
+			"paragraph": "Una mezcla es un conjunto de instrucciones para llegar a una configuración aleatoria de un Cubo de Rubik. En los torneos, en lugar de permitir que una persona mezcle el cubo de manera aleatoria, lo cual podría ser injusto, las personas utilizan mezclas oficiales. En lugar de realizar instrucciones aleatorias, estas mezclas eligen un cubo válido al azar, lo resuelven y deshacen los pasos. Puede hacer clic en 'Generar mezcla' para crear una nueva, y también puede habilitar una configuración para generar automáticamente nuevas mezclas al iniciar y detener el temporizador. Haga clic en 'Guía de mezcla' para obtener más detalles sobre los movimientos y cómo mezclar. También hay un cubo interactivo con el que puede jugar."
+		}
+	],
+	"calendar": [
+		{
+			"title": "Resumen",
+			"paragraph": "Puedes ver un calendario para cualquier semana, mes o año en varias vistas diferentes. Cada vista es fácil de imprimir y se puede navegar fácilmente utilizando los tres botones en la parte superior izquierda, que te llevan a hoy, atrás y adelante."
+		},
+		{
+			"title": "Atajos de teclado",
+			"paragraph": "Puedes cambiar las visualizaciones con las teclas W para semana, M para mes, Y para año y L para lista de años. También puedes usar las teclas de flecha para ir a la izquierda y derecha en períodos de tiempo, y presionar T para hoy."
+		}
+	],
+	"weather": [
+		{
+			"title": "Resumen",
+			"paragraph": "Hay tres pantallas: actual, diaria y por hora. La pantalla actual muestra el clima actual, temperatura, hora, máxima, mínima, viento, lluvia, humedad, índice UV y más. También muestra la hora de la última actualización y las coordenadas. Siempre puedes actualizar la página para obtener la información más reciente. Haz clic en el icono de lápiz para editar la ubicación predeterminada, que debería ser y se puede configurar fácilmente como tu ubicación actual. Haz clic en la unidad (F o C) para cambiar las unidades. La sección actual es la pantalla principal. Las secciones diaria y por hora son pantallas secundarias. La pantalla diaria muestra el clima esperado en tu ubicación elegida para cada día futuro durante siete días, y también muestra la máxima y mínima. La vista por hora proporciona información mucho más detallada, y puedes personalizar la cantidad de días mostrados en la vista por hora en la configuración, hasta 6 días (144 horas)."
+		},
+		{
+			"title": "Cambiar Unidades",
+			"paragraph": "Puedes cambiar las unidades haciendo clic en la unidad de temperatura en la pantalla principal (F o C) o ir a configuración y, en Unidades, hacer clic en la unidad que desees. Las unidades métricas utilizarán C para las temperaturas, mm para la lluvia y km/h para el viento. Las unidades imperiales utilizarán F para las temperaturas, pulgadas para la lluvia y mph para el viento."
+		}
+	],
+	"pictureinpicture": [
+		{
+			"title": "Resumen",
+			"paragraph": "El modo imagen dentro de imagen te permite abrir un video en una ventana emergente encima de otras aplicaciones. Creamos el reloj y temporizador en imagen dentro de imagen para que puedas utilizar esta funcionalidad y ver la hora y la fecha, o llevar un registro de un temporizador."
+		},
+		{
+			"title": "Uso",
+			"paragraph": "Usa las pestañas en la parte superior para cambiar entre la visualización de fecha y hora y la visualización del temporizador. En modo temporizador, introduce las horas y minutos deseados, luego haz clic en iniciar. Haz clic en el botón imagen dentro de imagen en la parte superior, o haz clic derecho en el video y selecciona \"imagen dentro de imagen\" para entrar en el modo imagen dentro de imagen."
+		},
+		{
+			"title": "Soporte",
+			"paragraph": "El soporte de imagen dentro de imagen varía según el navegador y el sistema operativo, sin embargo, generalmente es compatible con navegadores basados en Chromium como Chrome y Edge, pero no en Firefox. También es posible desactivar la imagen dentro de imagen en tu dispositivo, y hacer esto también haría que este modo sea inaccesible. Sin embargo, independientemente del soporte, aún puedes utilizar el reloj y temporizador en imagen dentro de imagen como un reloj y temporizador normales; simplemente no se abrirá en ventana emergente."
+		},
+		{
+			"title": "Problemas conocidos",
+			"paragraph": "Cambiar entre aplicaciones, minimizar o navegar a otra página puede hacer que la imagen dentro de imagen se detenga, dependiendo de tu dispositivo."
+		},
+		{
+			"title": "¿Cómo funciona?",
+			"paragraph": "Añadimos el reloj o temporizador a un elemento de lienzo, luego creamos un flujo de video a partir del lienzo para que el reloj o temporizador se pueda utilizar en modo imagen dentro de imagen."
+		}
+	],
+	"timer": [
+		{
+			"title": "Resumen",
+			"paragraph": "Cree un temporizador ingresando horas, minutos y/o segundos, luego haga clic en iniciar. Opcionalmente, puede darle un nombre a su temporizador. Una vez creado, puede usar los botones que están arriba de él para pausar y reanudar el temporizador, reiniciar el temporizador, entrar en pantalla completa y eliminar el temporizador. Puede crear varios temporizadores. Abra la configuración para cambiar la configuración de sonido cuando el temporizador termine."
+		}
+	],
+	"countdown": [
+		{
+			"title": "Resumen",
+			"paragraph": "Cree una cuenta regresiva seleccionando una fecha y hora, luego haga clic en iniciar. Opcionalmente, puede darle un nombre a su cuenta regresiva. Una vez creada, puede usar los botones que están arriba de ella para entrar en pantalla completa o eliminar la cuenta regresiva. Puede crear varias cuentas regresivas. Abra la configuración para cambiar la configuración de sonido cuando la cuenta regresiva termine."
+		}
+	],
+	"timestamp": [
+		{
+			"title": "Resumen",
+			"paragraph": "La aplicación de timestamp está dividida en múltiples secciones. Desplázate para ver todas las secciones, o cambia la visualización en la configuración a pestañas para ver una sección a la vez."
+		},
+		{
+			"title": "Zonas Horarias",
+			"paragraph": "Los timestamps siempre se miden en GMT (0 UTC offset), por lo que no hay ambigüedad. Sin embargo, si ingresas una fecha y hora o quieres mostrar un timestamp como fecha y hora, deberás seleccionar una zona horaria. Puedes elegir si la fecha y hora ingresadas están en GMT o en tu hora local para asegurar que obtengas los valores correctos."
+		},
+		{
+			"title": "Usar la Fecha de Hoy",
+			"paragraph": "Hay botones en cada sección para usar la fecha actual. Haz clic en ellos y ajustarán su sección a la fecha y hora actuales. Serán precisos para la zona horaria que hayas seleccionado."
+		},
+		{
+			"title": "Convertir Timestamp o Fecha",
+			"paragraph": "Esta sección te permite seleccionar un timestamp o una fecha y hora, y tanto convertirlo como ver información al respecto. Para ingresar un timestamp, selecciona la primera pestaña y luego selecciona milisegundos o segundos. Para ingresar una fecha y hora, selecciona la segunda pestaña. Puedes elegir el tipo de entrada que te sea más fácil: entradas de fecha y hora, texto de fecha o números individuales para el año, mes, etc. La información del timestamp a continuación se actualizará automáticamente y mostrará timestamps, hora local y hora GMT, el tiempo relativo a ahora y el tiempo en especificaciones de formato de tiempo específicas como ISO 8601."
+		},
+		{
+			"title": "Timestamp Unix Actual",
+			"paragraph": "Esta sección mostrará el timestamp actual, que se actualiza automáticamente cada segundo. El timestamp se mostrará en segundos, milisegundos, hex (segundos), y también se mostrarán las horas locales y UTC. Hay botones de copiar que puedes usar para copiar fácilmente un timestamp."
+		},
+		{
+			"title": "Diferencia de Tiempo",
+			"paragraph": "Esta sección te permite ingresar un timestamp o fecha y hora en un lado y un timestamp o fecha y hora en el otro lado, y ver la diferencia entre ellos. Puedes ver la diferencia en días, así como en milisegundos y segundos, y también cuál hora está adelantada respecto a la otra. También puedes usar botones para ingresar rápidamente la fecha y hora actuales."
+		},
+		{
+			"title": "Inicio/Fin del Día, Mes, Año",
+			"paragraph": "Esta sección te permite ver las fechas de época para el inicio y fin de un año, mes o día específico. Primero, selecciona año, mes o día, y luego selecciona la hora específica (y la zona horaria) que deseas usar. Verás el primer y último segundo del año/mes/día ingresado en timestamps y en texto de fecha y hora en GMT y tu zona horaria."
+		},
+		{
+			"title": "Convertir Secciones a Otras Unidades",
+			"paragraph": "Esta sección te permite ingresar un número de segundos (u otras unidades) y convertirlo a otras unidades como años y días."
+		},
+		{
+			"title": "Días por Año",
+			"paragraph": "Los años no bisiestos tienen 365 días, pero los años bisiestos tienen 366. Cada 4 años es un año bisiesto, pero no cada 100 excepto cada 400. Por eso hay 365.2425 días por año en el calendario gregoriano. En un año astrológico, hay 365.2422 días, sin embargo, esta aplicación usa 365.2425 ya que es lo que usan nuestros calendarios. Esta pequeña diferencia representa un error de un día cada 3333.3 años."
+		},
+		{
+			"title": "Cuántos Segundos en...",
+			"paragraph": "Esta sección muestra una tabla simple de cuántos segundos hay en 1 hora, día, semana, mes y año. Como se mencionó anteriormente, los años tienen 365.2425 días. Un mes en esta sección se considera 1/12 de un año, que es 30.436875 días."
+		},
+		{
+			"title": "Información del Timestamp",
+			"paragraph": "Esta sección muestra información útil sobre GMT, UTC, timestamps y estándares de tiempo."
+		}
+	],
+	"birthdays": [
+		{
+			"title": "Resumen",
+			"paragraph": "¡Birthdays es una aplicación sencilla que te permite agregar cumpleaños para amigos y familiares! Puedes ver los cumpleaños en un calendario mensual y en una lista simple, y personalizar la apariencia de tu aplicación. ¡Rastrea fácilmente todos los cumpleaños de tus amigos, en un solo lugar! También puedes importar y exportar cumpleaños e imprimir una lista de cumpleaños."
+		},
+		{
+			"title": "Agregar Cumpleaños",
+			"paragraph": "Para agregar un cumpleaños, haz clic en el botón de agregar cumpleaños en la parte inferior. Los cumpleaños se muestran por mes, comenzando con el mes actual."
+		},
+		{
+			"title": "Visualizaciones",
+			"paragraph": "Puedes personalizar la visualización haciendo clic en los botones '1' y '2', al igual que en muchas otras aplicaciones. También puedes ir a la configuración para cambiar las visualizaciones primaria y secundaria. La visualización primaria es la lista de cumpleaños, y puede mostrar una lista más simple, ideal para ver muchos cumpleaños de una vez, o una lista completa, con información más detallada. La visualización secundaria es el calendario mensual y puede hacerse más pequeño o ocultarse. También puedes mostrar u ocultar la barra de búsqueda y los encabezados de mes. También puedes ordenar los cumpleaños comenzando con el mes actual o el inicio del año."
+		},
+		{
+			"title": "Resaltar Cumpleaños Cercanos",
+			"paragraph": "Marca esta configuración e ingresa un número de días para resaltar los cumpleaños que están a esa cantidad de días o menos de hoy."
+		},
+		{
+			"title": "Imprimir Cumpleaños",
+			"paragraph": "Personaliza tu visualización como desees (cambia la visualización primaria, muestra/oculta los encabezados de mes, comienza al inicio del año o en el mes actual) y luego haz clic en el botón de imprimir en la parte inferior (o presiona ctrl+P) para imprimir tus cumpleaños."
+		},
+		{
+			"title": "Importar y Exportar Cumpleaños",
+			"paragraph": "En la configuración, encontrarás dos campos de texto para importar y exportar. Para compartir tus datos, puedes copiar el texto del campo de exportación y enviarlo a un amigo, permitiéndole importarlo. Alternativamente, puedes copiar el enlace que contiene los cumpleaños. Luego puedes pegar estos datos en el campo de importación o abrir el enlace directamente para importar los cumpleaños. Cada cumpleaños tiene un ID único, por lo que puedes tener varias personas con el mismo nombre y cumpleaños. Si importas cumpleaños que ya existen (con el mismo ID), tus entradas originales se conservarán, evitando duplicados no deseados."
+		},
+		{
+			"title": "Días Bisiestos",
+			"paragraph": "Los cumpleaños en días bisiestos (29 de febrero) se consideran el 1 de marzo si es un año no bisiesto y el 29 de febrero si es un año bisiesto. Su edad se contará en cuántos años desde su cumpleaños, no en cuántos 29 de febrero desde su cumpleaños."
+		}
+	],
+	"app": [
+		{
+			"title": "Cambio de Colores",
+			"paragraph": "Ve a Configuración > Apariencia > Estética y selecciona los colores base y de acento de tu elección. ¡Estos colores se usarán en todas partes de tu Reloj de Escritorio! Puedes hacer clic en \"Oscuro\", presionar la tecla 'N' o hacer clic en el icono de sol/luna en cualquier página para alternar el modo nocturno."
+		},
+		{
+			"title": "Personalización de la Interfaz de Usuario",
+			"paragraph": "Ve a Configuración > Apariencia > Interfaz de Usuario. Puedes elegir qué botones mostrar en la barra de título, si deseas un menú más pequeño, si siempre deseas que el menú esté colapsado en pantallas más grandes y si deseas ocultar la barra de título cuando esté inactiva."
+		},
+		{
+			"title": "Chromecast",
+			"paragraph": "Ve a Configuración > General > Aplicación y haz clic en el botón \"Transmitir\" para comenzar a Chromecastear. Puedes agregar el botón de transmisión a tu barra de título en Configuración > Apariencia > Interfaz de Usuario, seleccionando \"Mostrar botón de transmisión\"."
+		},
+		{
+			"title": "Atajos",
+			"paragraph": "Puedes habilitar o deshabilitar el modo de pantalla completa al hacer doble clic y los atajos de teclado yendo a Configuración > General > Atajos. También puedes ver una lista de atajos de teclado allí."
+		},
+		{
+			"title": "Cambio de Idioma, Configuración Regional de Fecha y Hora y Zona Horaria",
+			"paragraph": "Puedes cambiar el idioma, la configuración regional de fecha y hora y la zona horaria en Configuración > General > Configuración Regional. Estos valores no se pueden cambiar si tienes la detección automática activada. Siempre puedes volver a habilitar la detección automática para usar el idioma, la configuración regional de fecha y hora y la zona horaria predeterminados de tu sistema."
+		}
+	],
+	"goals": [
+		{
+			"title": "Filosofía de Diseño",
+			"paragraph": "Reloj Sencillo tiene como objetivo ser una herramienta que sea fácil de usar y que tenga todas las configuraciones y relojes que nunca necesitará. Ponemos especial atención en la experiencia del usuario, creando una interfaz de usuario hermosa, limpia y elegante, y desarrollando una aplicación altamente eficiente. También intentamos diseñar para cualquier tamaño de pantalla, sin importar cuán grande o pequeña sea. Por último, queremos que todo esté disponible sin conexión, de manera rápida y sencilla, y queremos minimizar el ruido. Eso significa sin servidor (en el futuro, podríamos considerar ofrecer almacenamiento de cuentas en la nube) y sin anuncios (podríamos considerar agregar un pequeño banner en el menú de configuración para respaldar uno de nuestros lanzamientos de juegos de mesa, ¡manténgase atento!)."
+		},
+		{
+			"title": "Nuestra Misión",
+			"paragraph": "Si hay algo relacionado con relojes, tiempo o temporizadores en el mundo, ¡queremos tenerlo aquí! Nuestro objetivo es, simplemente, ofrecer un producto asombroso a la mayor cantidad de personas posible y asegurarnos de que estamos mejorando su vida y reduciendo el estrés o las molestias cuando sea posible."
+		}
+	],
+	"time": [
+		{
+			"title": "¿Qué es un segundo?",
+			"paragraph": "Un segundo es una unidad fundamental de tiempo. Originalmente se definía como una fracción del día. Sin embargo, esa definición se basaba en la rotación de la Tierra, que puede cambiar debido a irregularidades en la velocidad de rotación de la Tierra. Para la medición del tiempo científico, el Sistema Internacional de Unidades (SI) adoptó una nueva definición basada en las vibraciones atómicas de los átomos de cesio. Ahora, un segundo se define como la duración de 9,192,631,770 periodos de la radiación correspondiente a la transición entre dos niveles hiperfinos del átomo de cesio-133."
+		},
+		{
+			"title": "La Evolución de los Relojes",
+			"paragraph": "Los relojes se han utilizado durante miles de años. Hace mucho tiempo, se inventaron los relojes de sol para seguir el movimiento de la sombra del sol. Los relojes de péndulo utilizan un péndulo con un peso cuidadosamente calculado para garantizar un período de oscilación específico. Ahora, los relojes atómicos pueden medir el tiempo con una precisión de unos pocos nanosegundos. A este nivel de precisión, mantienen la exactitud en aproximadamente un segundo cada varios millones de años."
+		},
+		{
+			"title": "¿Qué son los relojes atómicos?",
+			"paragraph": "Los relojes atómicos son dispositivos de medición del tiempo muy precisos que dependen de las vibraciones u oscilaciones de los átomos para medir el tiempo. Estos relojes son ampliamente considerados como los instrumentos de medición del tiempo más precisos disponibles y sirven como base para los estándares de tiempo internacionales. Hay diferentes tipos de relojes atómicos, incluyendo relojes atómicos de cesio, relojes atómicos de rubidio y relojes de maser de hidrógeno, cada uno basado en diferentes elementos atómicos y tecnologías. Los relojes atómicos se utilizan en sistemas de navegación global y telecomunicaciones."
+		},
+		{
+			"title": "Tipos de Relojes Atómicos",
+			"paragraph": "Los relojes atómicos de cesio son el tipo más común de reloj atómico. Se basan en las vibraciones de los átomos de cesio. Los relojes atómicos de cesio son tan precisos que pueden medir el tiempo con una precisión de unos pocos nanosegundos."
+		},
+		{
+			"title": "",
+			"paragraph": "Los relojes atómicos de rubidio utilizan átomos de rubidio como su referencia para la medición del tiempo. Son ligeramente menos precisos que los relojes atómicos de cesio pero siguen siendo muy precisos. Por lo general, pueden mantener la precisión en unos pocos microsegundos a lo largo de un año."
+		},
+		{
+			"title": "",
+			"paragraph": "Los relojes de maser de hidrógeno son aún más precisos que los relojes atómicos de cesio. Utilizan átomos de hidrógeno y tecnología de maser (amplificación de microondas mediante emisión estimulada de radiación) para lograr una precisión asombrosa. Estos relojes pueden mantener la precisión en unos pocos picosegundos (billonésimas de segundo) durante el transcurso de un año."
+		},
+		{
+			"title": "Aplicaciones de los Relojes Atómicos",
+			"paragraph": "Estándares de Tiempo: Los relojes atómicos, especialmente los relojes atómicos de cesio y de maser de hidrógeno, sirven como base para los estándares de tiempo internacionales. El Tiempo Universal Coordinado (UTC) se basa en una combinación de relojes atómicos de todo el mundo. El UTC se utiliza como referencia para la medición del tiempo a nivel mundial y se utiliza en diversas aplicaciones, incluyendo sistemas de navegación por satélite (como el GPS) y telecomunicaciones. Los relojes atómicos también se han utilizado para probar aspectos de la teoría de la relatividad de Einstein e investigar fenómenos como la dilatación del tiempo."
+		},
+		{
+			"title": "¿Qué es la dilatación del tiempo?",
+			"paragraph": "La dilatación del tiempo establece que el tiempo no es absoluto, sino relativo a la velocidad y al campo gravitatorio de un observador. Esto ha sido confirmado experimentalmente y tiene profundas implicaciones en nuestra comprensión del universo."
+		},
+		{
+			"title": "¿Cuál es la diferencia entre UTC y GMT?",
+			"paragraph": "El GMT se basaba originalmente en el tiempo solar medio en el Meridiano de Greenwich, que atraviesa el Real Observatorio de Greenwich, Inglaterra. Tradicionalmente, era el tiempo estándar en el Meridiano de Greenwich, y no tenía en cuenta las variaciones en la rotación de la Tierra."
+		},
+		{
+			"title": "",
+			"paragraph": "El UTC es un estándar de tiempo moderno y altamente preciso. Se introdujo para tener en cuenta las irregularidades en la rotación de la Tierra. El UTC se basa en relojes atómicos altamente precisos y se ajusta periódicamente para mantenerse dentro de 0.9 segundos del tiempo solar medio (UT1). Este ajuste se realiza agregando segundos intercalares en ocasiones, lo que el GMT no incorpora."
+		},
+		{
+			"title": "",
+			"paragraph": "El UTC es reconocido como el estándar global para la medición del tiempo y se utiliza en actividades como la navegación global y la comunicación por satélite. El GMT tiene importancia histórica, pero se utiliza con menos frecuencia en contextos formales."
+		},
+		{
+			"title": "",
+			"paragraph": "Usos Coloquiales: a menudo las personas utilizan \"GMT\" y \"UTC\" indistintamente al referirse a zonas horarias que son iguales o casi iguales. Sin embargo, \"UTC\" es el término más preciso y actualizado para la medición del tiempo moderno. El GMT se utiliza a menudo coloquialmente para referirse a la zona horaria del Meridiano de Greenwich (UTC+0). Sin embargo, las zonas horarias de todo el mundo se definen en relación al UTC, no al GMT. El UTC es la base de las diferencias horarias de las diferentes zonas horarias, incluyendo UTC+1, UTC-5, etc."
+		},
+		{
+			"title": "Tipos de Relojes",
+			"paragraph": "Relojes de Cuarzo: La mayoría de los relojes analógicos modernos, como los relojes de pared y los relojes de pulsera, utilizan un cristal de cuarzo como elemento de medición del tiempo. Los relojes de cuarzo funcionan en base a las propiedades piezoeléctricas de los cristales de cuarzo. Cuando se aplica una corriente eléctrica al cristal, vibra a una frecuencia precisa. Estas vibraciones se cuentan y se utilizan para medir el tiempo. Un circuito llamado oscilador divide las vibraciones en intervalos regulares, impulsando las manecillas del reloj."
+		},
+		{
+			"title": "",
+			"paragraph": "Relojes Atómicos: Los relojes atómicos son los dispositivos de medición del tiempo más precisos. Utilizan las vibraciones de los átomos (generalmente de cesio o rubidio) para medir el tiempo. La transición entre niveles de energía específicos en los átomos es increíblemente consistente, lo que permite a los relojes atómicos proporcionar una medición del tiempo extremadamente precisa."
+		},
+		{
+			"title": "",
+			"paragraph": "Relojes Digitales: Los relojes digitales muestran la hora usando dígitos numéricos. A menudo dependen de osciladores de cristal de cuarzo y microprocesadores para convertir las vibraciones del cristal en una pantalla digital."
+		},
+		{
+			"title": "",
+			"paragraph": "Relojes Controlados por Radio: Algunos relojes modernos, a menudo digitales, son controlados por radio. Reciben señales horarias de transmisores dedicados, como los operados por organizaciones de medición del tiempo nacionales. Estos relojes ajustan automáticamente su hora para mantener una precisión extrema."
+		},
+		{
+			"title": "",
+			"paragraph": "Relojes de Computadora: Las computadoras y dispositivos electrónicos a menudo tienen relojes internos que dependen de osciladores y se sincronizan regularmente con estándares de tiempo precisos a través de Internet."
+		},
+		{
+			"title": "¿Cómo funcionan los relojes analógicos?",
+			"paragraph": "Los relojes analógicos funcionan utilizando engranajes y manecillas para mostrar la hora en una esfera del reloj. Una fuente continua de energía, como una batería o un muelle de cuerda, alimenta el reloj. Los engranajes transfieren esta energía a las manecillas del reloj, que se mueven alrededor de la esfera del reloj dividida en horas y minutos. Algunos relojes tienen un péndulo que oscila, produciendo un sonido de tic-tac. Las manecillas del reloj muestran la hora y los minutos actuales. Este método tradicional de medición del tiempo se ha utilizado durante siglos y sigue siendo popular por su diseño clásico."
+		},
+		{
+			"title": "¿Cuándo se inventó el reloj analógico?",
+			"paragraph": "El primer reloj analógico, conocido como el \"reloj de agua\" o \"clepsidra\", fue inventado por los antiguos egipcios alrededor del año 1500 a.C. Utilizaba el flujo de agua de un recipiente a otro para medir el tiempo. Los primeros relojes mecánicos que se parecían a los relojes analógicos modernos aparecieron en Europa durante el siglo XIV. Algunos ejemplos tempranos incluyen el reloj de la Catedral de Salisbury (1386) y el reloj de la Catedral de Wells (1390). Estos relojes no tenían manecillas de minutos y se utilizaban principalmente en iglesias para tocar campanas con fines religiosos."
+		},
+		{
+			"title": "¿Cuándo se inventó el reloj digital?",
+			"paragraph": "El primer reloj digital como lo conocemos hoy en día fue creado en la década de 1960. El reloj digital más famoso de los primeros tiempos es el Modelo 801, diseñado por el ingeniero eléctrico James L. Buie y producido por la empresa Digital Equipment Corporation (DEC) en 1961. Este reloj utilizaba circuitos digitales de flip-flop para mostrar la hora en horas, minutos y segundos."
+		},
+		{
+			"title": "¿Qué son las zonas horarias?",
+			"paragraph": "La Tierra está dividida en zonas horarias, cada una de aproximadamente 15 grados de longitud. Los 360 grados de longitud se dividen en 24 zonas aproximadas, dejando 1 por hora en el día. Esta división ayuda a mantener un sistema global sincronizado de medición del tiempo, permitiendo a las personas coordinarse y programar en todo el mundo."
+		},
+		{
+			"title": "¿Cuántas zonas horarias existen?",
+			"paragraph": "Existen 24 zonas horarias, cada una definida por estar a 1 hora de diferencia de UTC, pero algunas zonas horarias tienen un desfase de 15, 30 o 45 minutos respecto a la zona horaria primaria más cercana. Actualmente, existen 37 zonas horarias. Hay cientos de zonas horarias oficiales: https://www.timeanddate.com/time/zones/."
+		},
+		{
+			"title": "¿Qué es un segundo intercalar?",
+			"paragraph": "Para tener en cuenta el lento frenado de la rotación de la Tierra, ocasionalmente se añaden segundos intercalares al Tiempo Universal Coordinado (UTC). Estos segundos adicionales alinean nuestros sistemas de medición del tiempo con la velocidad variable de rotación de la Tierra. Esto significa que el tiempo atómico y el tiempo solar siguen sincronizados. Cuando se introduce un segundo intercalar, el UTC se detiene efectivamente durante un segundo. El GMT no utiliza segundos intercalares."
+		},
+		{
+			"title": "¿Qué son los formatos de 12 y 24 horas?",
+			"paragraph": "Diferentes culturas y regiones utilizan diferentes formatos de tiempo. La mayoría comúnmente, existen el reloj de 12 horas (con indicadores de AM y PM) y el reloj de 24 horas. La mayoría de los países utilizan el reloj de 24 horas, pero algunos países como los Estados Unidos, Canadá, el Reino Unido, Australia, Nueva Zelanda, Filipinas e Irlanda utilizan el reloj de 12 horas, y algunos países como India, Sudáfrica y Singapur utilizan ambos sistemas de reloj de 12 horas y 24 horas."
+		},
+		{
+			"title": "¿Qué significan AM y PM?",
+			"paragraph": "\"AM\" significa \"Ante Meridiem\", que significa \"antes del mediodía\" o \"antes del mediodía\". Se refiere al tiempo desde la medianoche (12:00 AM) hasta justo antes del mediodía (11:59 AM). \"PM\" significa \"Post Meridiem\", que significa \"después del mediodía\" o \"tarde\". Representa el tiempo desde el mediodía (12:00 PM) hasta justo antes de la medianoche (11:59 PM)."
+		}
+	],
+	"dates": [
+		{
+			"title": "¿Qué es el calendario gregoriano?",
+			"paragraph": "El calendario gregoriano es el sistema de calendario que la mayoría de las personas utiliza hoy en día. Tiene 12 meses y comienza el 1 de enero. Cada cuatro años, se agrega un día adicional para mantenerlo sincronizado con la posición del sol en el cielo. Se utiliza en todo el mundo para la vida cotidiana y los negocios."
+		},
+		{
+			"title": "¿Cuándo se desarrolló el calendario gregoriano?",
+			"paragraph": "El calendario gregoriano, ampliamente utilizado hoy en día, fue introducido por el Papa Gregorio XIII en 1582 para reformar el calendario juliano y abordar las inexactitudes en la fecha de la Pascua."
+		},
+		{
+			"title": "El Calendario Lunar",
+			"paragraph": "Muchos calendarios tempranos se basaban en ciclos lunares, como el calendario islámico Hijri. Los calendarios lunares utilizan las fases de la luna para determinar los meses, que tienen una duración de aproximadamente 29.5 días. Sin embargo, los calendarios lunares no se alinean perfectamente con el año solar."
+		},
+		{
+			"title": "El Calendario Solar",
+			"paragraph": "Los calendarios solares, como el calendario gregoriano, se basan en la órbita de la Tierra alrededor del sol. Proporcionan una forma más precisa de sincronizarse con las estaciones, lo cual es esencial para la planificación agrícola y climática."
+		},
+		{
+			"title": "¿Qué es un año bisiesto?",
+			"paragraph": "Los años bisiestos, introducidos por Julio César en el calendario juliano, son necesarios para ajustar el hecho de que la órbita de la Tierra alrededor del sol es de aproximadamente 365.2422 días. El calendario gregoriano refina esto al tener años bisiestos con excepciones, asegurando que esté más sincronizado con el año solar."
+		},
+		{
+			"title": "",
+			"paragraph": "Un año bisiesto es un año que contiene un día adicional, el 29 de febrero, para mantener sincronizado nuestro año calendario con el año astronómico. El propósito de un año bisiesto es tener en cuenta que la Tierra tarda aproximadamente 365.2422 días en orbitar alrededor del Sol. Sin la adición de años bisiestos, con el tiempo, el calendario se desalinearía con las estaciones cambiantes."
+		},
+		{
+			"title": "¿Con qué frecuencia ocurren los años bisiestos?",
+			"paragraph": "Cada 4 años ocurre un año bisiesto, donde se agrega un día adicional al calendario. Esos años tienen 366 días de duración (en lugar de 365). Los años divisibles por 100 no son años bisiestos a menos que sean divisibles por 400. Por ejemplo, 2004, 2008 y 2012 son años bisiestos, 1700, 1800 y 1900 no son años bisiestos, y 1200, 1600 y 2000 son años bisiestos. Esto es para asegurarse de que el calendario esté sincronizado con la órbita de la Tierra, que es ligeramente más corta que 365.25 días de duración."
+		},
+		{
+			"title": "¿Qué sucedería sin años bisiestos?",
+			"paragraph": "Los años bisiestos ayudan a mantener la alineación de nuestro calendario con las estaciones cambiantes. Al agregar un día adicional cada cuatro años (con excepciones), mantenemos nuestro año calendario anual aproximadamente sincronizado con la órbita de la Tierra alrededor del Sol, que dura aproximadamente 365.2422 días. Sin años bisiestos, el calendario se desplazaría gradualmente fuera de alineación con el año astronómico, causando que las fechas de las estaciones se desplacen."
+		},
+		{
+			"title": "Día de Año Nuevo",
+			"paragraph": "Año Nuevo gregoriano: 1 de enero: esta es la celebración de Año Nuevo más ampliamente reconocida, siguiendo el calendario gregoriano, y se observa en muchos países de todo el mundo con fuegos artificiales, fiestas y cuentas regresivas."
+		},
+		{
+			"title": "",
+			"paragraph": "Año Nuevo Chino: Fecha variable (entre el 21 de enero y el 20 de febrero) - También conocido como el Festival de la Primavera, el Año Nuevo Chino marca el comienzo del calendario lunar y se celebra con danzas de dragones y leones, fuegos artificiales y la entrega de sobres rojos (hongbao)."
+		},
+		{
+			"title": "",
+			"paragraph": "Año Nuevo Islámico (Año Nuevo del Hiyri): Fecha variable: el Año Nuevo Islámico sigue el calendario lunar islámico y conmemora la migración del Profeta Mahoma a Medina. Es un momento de reflexión y recuerdo."
+		},
+		{
+			"title": "",
+			"paragraph": "Rosh Hashanah: Fecha variable (generalmente en septiembre) - El Año Nuevo Judío se observa con servicios religiosos, el sonido del shofar (cuerno de carnero) y el consumo de alimentos simbólicos como manzanas y miel."
+		},
+		{
+			"title": "",
+			"paragraph": "Nowruz: 20 o 21 de marzo - Nowruz, también conocido como el Año Nuevo Persa, se celebra en Irán y diversas comunidades persas. Marca el equinoccio de primavera y se observa con la mesa Haft-Seen, que presenta siete objetos simbólicos."
+		},
+		{
+			"title": "",
+			"paragraph": "Songkran: Del 13 al 15 de abril - Songkran es el Año Nuevo Tailandés y se celebra con festivales de agua y ceremonias religiosas. Es un momento de purificación y renovación."
+		},
+		{
+			"title": "",
+			"paragraph": "Diwali (Deepavali): Fecha variable (generalmente en octubre o noviembre) - Aunque no es un Año Nuevo en el sentido tradicional, Diwali, el Festival de las Luces, marca la victoria de la luz sobre la oscuridad y se celebra en India y por comunidades hindúes en todo el mundo."
+		},
+		{
+			"title": "",
+			"paragraph": "Matariki: Fecha variable (generalmente en junio) - Matariki es el Año Nuevo Maorí en Nueva Zelanda, marcado por el ascenso del cúmulo estelar de las Pléyades. Se celebra con eventos culturales y espirituales."
+		},
+		{
+			"title": "",
+			"paragraph": "Año Nuevo Racial: Fechas variables - Algunas culturas, especialmente en el sudeste asiático, celebran su propio Año Nuevo según los calendarios locales. Por ejemplo, el festival Songkran tailandés y el Año Nuevo laosiano (Pi Mai) se celebran en abril."
+		},
+		{
+			"title": "",
+			"paragraph": "Año Nuevo Javanés (Java): Fecha variable (generalmente en marzo) - El Año Nuevo Javanés se marca con un calendario javanés tradicional e incluye rituales y ceremonias."
+		},
+		{
+			"title": "",
+			"paragraph": "Año Nuevo Bengalí (Pohela Boishakh): 14 o 15 de abril - Se celebra en la región de Bengala en Asia del Sur, marcando el comienzo del calendario bengalí y se observa con desfiles coloridos y eventos culturales."
+		},
+		{
+			"title": "El Calendario Maya",
+			"paragraph": "La antigua civilización maya tenía un sistema de calendario altamente sofisticado. Utilizaban una combinación de un calendario ritual de 260 días (el Tzolk'in) y un calendario solar de 365 días (el Haab') para crear un ciclo calendario de 18,980 días únicos."
+		},
+		{
+			"title": "El Calendario Azteca",
+			"paragraph": "El calendario azteca, conocido como la Piedra del Sol azteca, es un símbolo significativo de la cultura azteca. Consta de dos partes circulares: el calendario ritual de 260 días (tonalpohualli) y el calendario solar de 365 días (xiuhpohualli). El tonalpohualli combina 20 signos diarios con 13 números, mientras que el xiuhpohualli consta de 18 meses, cada uno con 20 días. Para compensar los 5 días faltantes, se agregó un período de 5 días llamado Nemontemi. El calendario servía para fines religiosos, adivinatorios y de medición del tiempo, reflejando la cosmovisión azteca con su rica simbología cósmica y el rostro del dios del sol Tonatiuh en su centro."
+		},
+		{
+			"title": "¿De dónde proviene la semana de 7 días?",
+			"paragraph": "La semana de siete días tiene orígenes antiguos y probablemente comenzó con los babilonios alrededor del 600 a.C. Dividieron el mes lunar en aproximadamente fases de siete días. Este concepto se difundió y fue influenciado más tarde por tradiciones judeocristianas. Cada día recibe el nombre de un cuerpo celeste o un dios. La semana de siete días se utiliza en todo el mundo para organizar el tiempo."
+		},
+		{
+			"title": "¿De dónde provienen los nombres de los días de la semana?",
+			"paragraph": "Domingo: Nombrado en honor al Sol, tradicionalmente es el primer día de la semana en muchas culturas, ya que históricamente se asocia con el comienzo de la semana."
+		},
+		{
+			"title": "",
+			"paragraph": "Lunes: Nombrado en honor a la Luna, sigue al domingo. En muchas culturas, se considera el segundo día de la semana."
+		},
+		{
+			"title": "",
+			"paragraph": "Martes: Nombrado en honor al dios nórdico Tyr (o Tiw), que estaba asociado con la guerra y la ley. En las lenguas romances, a menudo recibe el nombre de Marte, el dios romano de la guerra."
+		},
+		{
+			"title": "",
+			"paragraph": "Miércoles: Nombrado en honor al dios nórdico Odín (o Woden), que estaba asociado con la sabiduría y la poesía. En las lenguas romances, a menudo recibe el nombre de Mercurio, el dios romano de la comunicación."
+		},
+		{
+			"title": "",
+			"paragraph": "Jueves: Nombrado en honor al dios nórdico Thor, que estaba asociado con el trueno y las tormentas. En las lenguas romances, a menudo recibe el nombre de Júpiter, el dios romano del cielo."
+		},
+		{
+			"title": "",
+			"paragraph": "Viernes: Nombrado en honor a la diosa nórdica Frigg (o Freyja), que estaba asociada con el amor y la fertilidad. En las lenguas romances, a menudo recibe el nombre de Venus, la diosa romana del amor."
+		},
+		{
+			"title": "",
+			"paragraph": "Sábado: Nombrado en honor al dios romano Saturno, que estaba asociado con la agricultura y el tiempo. Tradicionalmente, es el último día de la semana en muchas culturas."
+		},
+		{
+			"title": "¿De dónde provienen los nombres de los meses?",
+			"paragraph": "Enero: Nombrado en honor a Jano, el dios romano de las puertas y las entradas, a menudo representado con dos caras, una mirando hacia atrás al año viejo y otra hacia adelante al año nuevo."
+		},
+		{
+			"title": "",
+			"paragraph": "Febrero: Se cree que el nombre proviene de la palabra latina \"februare\", que significa \"purificar\". Febrero era un momento de purificación en el calendario romano."
+		},
+		{
+			"title": "",
+			"paragraph": "Marzo: Nombrado en honor a Marte, el dios romano de la guerra, originalmente fue el primer mes del calendario romano."
+		},
+		{
+			"title": "",
+			"paragraph": "Abril: El origen del nombre es incierto, pero puede derivarse de la palabra latina \"aperire\", que significa \"abrir\", posiblemente haciendo referencia a la apertura o floración de las flores y los árboles en primavera."
+		},
+		{
+			"title": "",
+			"paragraph": "Mayo: Nombrado en honor a Maia, una diosa de la tierra que representa el crecimiento de las plantas. Era un período de crecimiento y fertilidad."
+		},
+		{
+			"title": "",
+			"paragraph": "Junio: Nombrado en honor a Juno, la diosa romana del matrimonio y el bienestar. Junio se consideraba un mes propicio para las bodas."
+		},
+		{
+			"title": "",
+			"paragraph": "Julio: Originalmente conocido como Quintilis, que significa \"quinto\" en latín, ya que era el quinto mes del calendario romano. Más tarde fue renombrado en honor a Julio César."
+		},
+		{
+			"title": "",
+			"paragraph": "Agosto: Originalmente conocido como Sextilis, que significa \"sexto\" en latín, ya que era el sexto mes del calendario romano. Más tarde fue renombrado en honor al Emperador Augusto."
+		},
+		{
+			"title": "",
+			"paragraph": "Septiembre: Derivado de la palabra latina \"septem\", que significa \"siete\", ya que originalmente era el séptimo mes del calendario romano."
+		},
+		{
+			"title": "",
+			"paragraph": "Octubre: Derivado de la palabra latina \"octo\", que significa \"ocho\", ya que originalmente era el octavo mes del calendario romano."
+		},
+		{
+			"title": "",
+			"paragraph": "Noviembre: Derivado de la palabra latina \"novem\", que significa \"nueve\", ya que originalmente era el noveno mes del calendario romano."
+		},
+		{
+			"title": "",
+			"paragraph": "Diciembre: Derivado de la palabra latina \"decem\", que significa \"diez\", ya que originalmente era el décimo mes del calendario romano."
+		},
+		{
+			"title": "Calendarios Zodiacales y Astrológicos",
+			"paragraph": "Los calendarios astrológicos, como el zodiaco occidental, dividen el año en signos distintos e influyen en la astrología. Las personas se asocian con los signos zodiacales según sus fechas de nacimiento."
+		},
+		{
+			"title": "Día Marciano",
+			"paragraph": "En Marte, un día se llama sol y dura aproximadamente 24 horas y 39 minutos. El calendario marciano ayuda a ajustarse al día más largo del planeta en comparación con la Tierra."
+		},
+		{
+			"title": "¿Cuánto duran los días en otros planetas?",
+			"paragraph": "La duración de un día, o el tiempo que le lleva a un planeta completar una rotación completa sobre su eje, varía de un planeta a otro debido a sus diferentes tamaños y velocidades de rotación."
+		},
+		{
+			"title": "",
+			"paragraph": "Un día en Mercurio dura aproximadamente 59 días terrestres. Mercurio tiene una rotación lenta, y su día es casi tan largo como su año."
+		},
+		{
+			"title": "",
+			"paragraph": "Un día en Venus es más largo que su año. A Venus le lleva aproximadamente 243 días terrestres completar una rotación sobre su eje."
+		},
+		{
+			"title": "",
+			"paragraph": "Un día en la Tierra dura aproximadamente 24 horas. Este período de rotación de 24 horas define un día en nuestro calendario."
+		},
+		{
+			"title": "",
+			"paragraph": "Un día en Marte, a menudo llamado sol, dura aproximadamente 24 horas y 39 minutos."
+		},
+		{
+			"title": "",
+			"paragraph": "Júpiter es un gigante gaseoso y tiene un período de rotación muy corto. Un día en Júpiter dura alrededor de 9 horas y 56 minutos."
+		},
+		{
+			"title": "",
+			"paragraph": "Saturno, otro gigante gaseoso, tiene un período de rotación de aproximadamente 10 horas y 33 minutos."
+		},
+		{
+			"title": "",
+			"paragraph": "Urano, un gigante de hielo, gira más lentamente que la mayoría de los planetas. Su día dura aproximadamente 17 horas y 14 minutos."
+		},
+		{
+			"title": "",
+			"paragraph": "Neptuno, otro gigante de hielo, tiene un día que dura aproximadamente 16 horas y 6 minutos."
+		}
+	]
+}

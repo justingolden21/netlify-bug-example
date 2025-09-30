@@ -1,0 +1,56 @@
+/**
+* Styles for scrollbars
+*
+* Fallback to normal gray if css variables aren't available (such as scrollbars on `<body>`)
+* The `body` element doesn't have access to CSS variables for color palettes
+* and cannot have dynamically inserted code from Svelte Kit.
+* We insert CSS variables into the `main` element and provide fallback rgb colors for the normal gray palette.
+* We currently don't have scrollbars on the `body`, so this is currently not a problem, but could come back.
+*
+* We currently leave the `*::-webkit-scrollbar-track` unstyled (transparent) so it uses the body's background color
+*
+* @link https://css-tricks.com/the-current-state-of-styling-scrollbars/
+*/
+
+/* Corner is used in corner between horizontal and vertical scrollbars if both are present */
+::-webkit-scrollbar-corner,
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+*::-webkit-scrollbar {
+	width: 1rem;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: rgb(var(--base-500, 100, 116, 139));
+	border: 0.25rem solid rgb(var(--base-50, 248, 250, 252));
+}
+*::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(var(--base-600, 71, 85, 105));
+}
+
+.dark *::-webkit-scrollbar-thumb {
+	border: 0.25rem solid rgb(var(--base-800, 30, 41, 59));
+}
+.dark *::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(var(--base-400, 148, 163, 184));
+}
+
+.day-night *::-webkit-scrollbar-thumb {
+	border: 0.125rem solid #fff;
+	border-radius: 999px;
+	/* Transparent scrollbar @link https://stackoverflow.com/a/33686575 */
+	/* 1x1px base64 encoded png @link https://png-pixel.com/ */
+	background: transparent
+		url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=')
+		repeat-y;
+}
+.day-night *::-webkit-scrollbar-thumb:hover {
+	background-color: #fff;
+}
+
+@media print {
+	*::-webkit-scrollbar {
+		width: 0;
+	}
+}

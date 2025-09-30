@@ -1,0 +1,15 @@
+/* Styles for surface and padding classes, which are used across the project for consistent aesthethic */
+
+@layer base {
+	.surface {
+		@apply bg-base-100/75 backdrop-blur-sm dark:bg-base-800/75;
+		@apply shadow-md shadow-base-300/50 dark:shadow-black/50;
+		@apply border-2 border-base-300 dark:border-base-600;
+	}
+	.pad {
+		@apply p-4 sm:p-6 xl:p-10;
+	}
+	.page-container {
+		@apply mx-auto max-w-7xl p-4 sm:p-6 xl:p-10;
+	}
+}

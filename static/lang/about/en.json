@@ -1,0 +1,845 @@
+{
+	"clock": [
+		{
+			"title": "Overview",
+			"paragraph": "Desktop Clock is a completely customizable clock website and app. You can customize the date and time formats, display an analog clock, show your battery percentage, and cusotmize the font size and colors. It can be installed offline for free and without ads on any computer or phone."
+		},
+		{
+			"title": "Changing to Analog and Digital",
+			"paragraph": "Click the '1' button on the top left, or hit the 'P' key to toggle the primary display. You can also go to Settings > Clock > Displays."
+		},
+		{
+			"title": "Changing the Secondary Display",
+			"paragraph": "Click the '2' button on the top left, or hit the 'D' key to toggle the secondary display. You can also go to Settings > Clock > Displays."
+		},
+		{
+			"title": "Fullscreen",
+			"paragraph": "Click the fullscreen button on the top right or hit the 'F' key to toggle fullscreen. Desktop Clock will automatically hide the title bar. Move your mouse to bring back the title bar."
+		},
+		{
+			"title": "Show Battery",
+			"paragraph": "Hit the 'B' key or go to Settings > Clock > Displays and toggle \"Show battery\"."
+		},
+		{
+			"title": "Custom Time and Date Format",
+			"paragraph": "Go to Settings > Clock > Digital Datetime. You can select one of the preset time and date formats, or make your own."
+		},
+		{
+			"title": "Custom Analog Clock Theme",
+			"paragraph": "If your primary display is the analog clock, you can go to Settings > Analog and select an existing theme or make a new theme. You can customize the clock face color and shape, the pin, numerals, ticks, and hands. Enter a name and click \"Save theme\" to save it. You can always change themes back, make new themes, and delete themes. You can hover an existing theme to copy a link to it to share with others or download it, and you can upload the theme above your list of themes."
+		}
+	],
+	"worldclock": [
+		{
+			"title": "Overview",
+			"paragraph": "Choose from hundreds of timezones, enter custom names for your timezones, and toggle how you display your worldclocks. You can also select a custom theme for your analog worldclocks and custom date and time formats for your digital worldclocks."
+		},
+		{
+			"title": "Changing Displays",
+			"paragraph": "You can choose between analog+digital, digital only, or none for your primary display, which displays your home timezone at the top. The primary display can be toggled with the 'P' key or by clicking the '1' button. You can select a secondary display of rows, compact rows, analog grid, or digital grid for your custom list of timezones."
+		},
+		{
+			"title": "Edit Individual Worldclock",
+			"paragraph": "You can hover over a worldclock to reveal a three dot menu. Click the three dots to move, edit, or delete the worldclock. You can edit the nickname and timezone."
+		},
+		{
+			"title": "Add a New Worldclock",
+			"paragraph": "In the bottom tray, click the \"New\" button and then enter the nickname and timezone and click \"Create\" on the bottom. The timezone nickname is the text displayed in the worldclock, and if left blank, it's just the timezone name. The timezone determines what time to display in the worldclock."
+		},
+		{
+			"title": "Delete All Worldclocks",
+			"paragraph": "Go to \"Settings\" > \"Worldclock\" and click \"Delete worldclocks\" at the bottom to delete all worldclocks. You can restore the original worldclocks by clicking \"Reset worldclocks\"."
+		},
+		{
+			"title": "Convert Timezones",
+			"paragraph": "Click \"Convert\" in the bottom tray to open up a dialog box that allows you to convert timezones. You can enter the timezone to convert from, the time to convert, and the timezone to convert to, and the text will be displayed above. Note that this does not account for two timezones that follow daylight savings where one timezone has set the clocks forward or backward and the other has not."
+		},
+		{
+			"title": "Timetable View",
+			"paragraph": "Click \"Timetable\" in the bottom tray to open up a dialog box that shows you a timetable of all of your worldclocks in different times of day. On the left, you can see the hour difference between those timezones and your home timezone. You can see the timezone names, the current time in all timezones, and the time in those timezones when it's 9:00 and other times in your timezone. You can customize the values in the dropdown and they will be stored for next time. You can toggle whether or not you want to display AM/PM or 24-hour time with the toggle below. You can click \"Reset\" to reset the dropdown values and AM/PM setting. This view is very helpful for scheduling meetings and recurring times with people in different timezones."
+		}
+	],
+	"stopwatch": [
+		{
+			"title": "Overview",
+			"paragraph": "Stopwatch has more than just start, stop, and lap functionality. It will keep running even if the tab or app closes, and you can have multiple stopwatches, name your stopwatches, and start multiple stopwatches at once."
+		},
+		{
+			"title": "Create, Start, Stop, and Delete Stopwatches",
+			"paragraph": "Create a new stopwatch by clicking the \"New\" button on the stopwatch page. You can create multiple stopwatches as well. Click the big circle to start and stop the stopwatch. Once you've clicked the circle and the pause or resume button is focused, you can hit the spacebar to pause and resume as well. Hover the stopwatch and click the x button to delete it."
+		},
+		{
+			"title": "How to Add and View Laps",
+			"paragraph": "Click \"Lap\" to start a new lap. You can click \"Laps\" to view your list of laps, with lap numbers, lap time, and total time. You can reverse the lap order in settings. You can also go to settings to enable showing the lap chart, which shows the lap times and total times on a simple line chart."
+		},
+		{
+			"title": "Fullscreen Stopwatch",
+			"paragraph": "Hover a stopwatch and click the fullscreen icon on the top right of the stopwatch to enter fullscreen stopwatch mode."
+		},
+		{
+			"title": "Simultaneous Start",
+			"paragraph": "Click the \"Simultaneous Start\" button in the stopwatch page. In the dialog, enter the number of stopwatches to start. These will all start at the same time, when you click the \"Start\" button below."
+		},
+		{
+			"title": "Customize Your Stopwatches",
+			"paragraph": "In stopwatch settings, you can change the display to always show hours, show a custom number of digits after seconds, and show a custom number of digits after seconds in the lap list. You can also enable namable stopwatches, to track different events or people, and enable a reset button for your stopwatches if you prefer."
+		},
+		{
+			"title": "Automatically Start New Stopwatches",
+			"paragraph": "Go to settings and click \"Automatically start new stopwatches\" so any time you create a new stopwatch, it will immediately start running."
+		}
+	],
+	"pomodoro": [
+		{
+			"title": "Overview",
+			"paragraph": "A pomodoro timer is a timer that helps you focus on one thing and take breaks. The idea is that you have tasks that take a certain number of poms (25mins) and between each pom, you have a short break (5min). After every so many (5) short breaks, the break is instead long (15mins). This technique helps you study, focus, or just get stuff done. In our pomodoro timer, you can customize the minute lengths and also make a todo list of tasks for today with how many poms each one takes."
+		},
+		{
+			"title": "Change Pomodoro, Short Break, and Long Break Minutes",
+			"paragraph": "Open settings and go to the \"Miunutes\" section to change the number of minutes long a pomodoro, short break, or long break is, as well as the long break interval. The long break interval is the number of short breaks between each long break. The pomodoro method typically uses 25 minute long intervals."
+		},
+		{
+			"title": "Sound Settings",
+			"paragraph": "Open settings and go to the \"Sound\" section. You can change the sound that plays when the timer is done, as well as its volume and how many times it repeats."
+		},
+		{
+			"title": "Navigating the Timer",
+			"paragraph": "Click \"Start\" to begin or resume the current timer. The current timer can be a pomodoro (a task) or a short or long break (break between tasks). The tab will change when the timer runs out. It will go between pomodoro and short break back and forth, and every 5 (or whichever long break interval you have chosen) breaks will be a long break instead. You can click the fastforward button to skip to the next section. You can also click on a tab to begin a timer for that section."
+		},
+		{
+			"title": "Adding Tasks",
+			"paragraph": "You can click the \"New\" button at the bottom to add a new task. You can enter a name and description if you would like. The number of poms is the number of pomodoro timer durations that the task will take. For example, with 25 minute pomodoros and 5 minute breaks, if you set the task study to be 3 poms, then you will spend 75 minutes studying, with two 5 minute breaks and three studying sessions. As you progress through the timer, the current task will be displayed below (which can be changed by changing the primary display), and your list of tasks will be displayed below that. You can edit the name and description, delete tasks, and start at the beginning. Below that, you can see a graph representing how long each task and break will be. You can show or hide the task list and overview graph by changing the secondary display."
+		}
+	],
+	"chessclock": [
+		{
+			"title": "Overview",
+			"paragraph": "Our chessclock has more than just two timers with custom times. The game can be paused, and you can choose from four different increment settings. You can also customize sounds to play when you switch, when you're low on time, and when the time runs out. Check out our list of keyboard shortcuts for switching turns and pausing too."
+		},
+		{
+			"title": "Change Starting Time and Increment",
+			"paragraph": "Open settings and go to \"Time control\". You can change the starting minutes and seconds, as well as the increment method. There are also quick buttons for common increment methods you can click. If you have a long starting time and wake lock is off, you may get a message suggesting turning wake lock on, because otherwise, your device may automatically dim the screen during your game."
+		},
+		{
+			"title": "What are Fischer and Bronstein Increment Methods in Chess?",
+			"paragraph": "Fischer increment adds an increment time after each move. Bronstein also adds the increment time after each move, but can never bring the player's time higher than the time they began the move with. For example, if you have a 5 second increment and take 3 seconds to move, under Fischer increment, you would get 5 seconds, so you would end the move with 2 more seconds than you started with. Under Bonstein increment, you would only get 3 seconds, since your time cannot go above what it was when your turn started."
+		},
+		{
+			"title": "Keyboard Shortcuts",
+			"paragraph": "You can use the spacebar to switch turns. Space will unpause the game if it is paused. Escape will pause or unpause the game. The left player can hit the 1 or 2 key and the right player can hit the 9 or 0 key to change turns."
+		},
+		{
+			"title": "Flip Time Text",
+			"paragraph": "Open settings and go to \"Display\". You can choose to flip the number for one of the players. This way, if you are sitting opposite each other and both want to read the time upright, you can."
+		}
+	],
+	"sunrisesunset": [
+		{
+			"title": "Overview",
+			"paragraph": "View when the sun will rise, set, and more. You can see dusk, dawn, noon, nadir, golden hour, and more times, with complete descriptions of each. You can also see how many hours of daylight are available and how many hours until sunrise or sunset. You can enter any date, any location, and any timezone and instantly get everything you need to know. There's also an easy one click button to use the current date, location, and timezone. Finally, there's a table of future days and their sunrises, sunsets, and more, and it's fully customizable in settings."
+		},
+		{
+			"title": "Enter Date, Location, and Timezone",
+			"paragraph": "The time the sun is at a specific position (such as sunrise or sunset) varies not just with where you are, but what day you choose. Sunrise Sunset allows you to enter a custom date, and also enter a timezone. For example, you may be in London wanting to know what time the sun will set in New York, but want the time formatted in London time. You can enter the date, location, and timezone to use at the top of the page. There is a button at the top that will set the date to today, the timezone to your current timezone, and use your current location. When setting the day to today, the app will remember that and update to use the current day on future days. You can individually change any of these values by clicking the pencil icon next to them. The local time is also shown for your convenience. This display can be toggled by changing the secondary display."
+		},
+		{
+			"title": "Change Latitude and Longitude",
+			"paragraph": "If you prefer to not use your current location, you can enter a custom latitude and longitude by clicking the pencil icon next to \"Location\". If you want to select a city, you can search for a city at the bottom to use its latitude and longitude."
+		},
+		{
+			"title": "Primary Display",
+			"paragraph": "The primary display shows the sunrise and sunset times as well as direction of the sun. It will also show you the daylight duration and times for other sun positions such as solar noon, golden hour, and more. Click the \"About\" button there to view a table of information about each sun time and what angle the sun is at for that time. You can toggle this view by changing the primary display."
+		},
+		{
+			"title": "Sun Table",
+			"paragraph": "Below the primary display, there is a table that displays more sun positions and what time they will occur in future days. You can customize or hide this display by opening settings and going to \"Sun Table\". You can choose which properties to display and how many rows of days you would like to see. If you select a different date, then these times will update and show that many days after that date and what time the sun will be at each of the positions you have selected. You can also see the daylight duration for each of these days."
+		},
+		{
+			"title": "Why does December have the longest days?",
+			"paragraph": "December actually has shorter days in terms of daylight duration in the northern hemisphere due to the tilt of Earth's axis relative to its orbit around the sun. The Earth's orbit is eliptical, not circular, so sometimes it's closer to the sun. When it's closer to the sun, it moves faster (due to gravity), so the Earth has to rotate slightly (0.033 degrees) farther before the sun comes back overhead. Also, Earth's axis is tilted, which means at the time of year when the tilt points towards or away from the sun, narrower slices of longitude are aimed at the sun. As the Earth moves in orbit, it rotates slightly (0.088 degrees) farther in order for a particular line of longitude to catch up with the sun. More rotation takes more time, making the days longer in December. The longest day of the year is December 22, which is 30 extra seconds. This is when measuring solar noon from one day to another. This is why solar noon changes about 30 seconds every day around the solstice. This difference between clock time and solar time causes the northern hemisphere to have the earliest sunset a few weeks before the solstice and the latest sunrise a few weeks after. Check out this video by minutephysics for more: https://youtu.be/nZMMuv0Ltyo?si=vy0X3J9QZzaw_o13"
+		}
+	],
+	"rubikscube": [
+		{
+			"title": "Overview",
+			"paragraph": "The top display shows a timer and a list of times and the bottom display shows a scramble. You can customize these displays by hitting the 1 and 2 buttons up top. You can hit the spacebar to start and end a timer. The time list will display your times in the current session as well as the running average of three and average of five (average of three without min and max)."
+		},
+		{
+			"title": "Sessions",
+			"paragraph": "You can click 'Sessions' to view all sessions, make a new session, delete sessions, and even download a csv of your session stats. You can click 'Current session' to view the current session as well."
+		},
+		{
+			"title": "Scrambles",
+			"paragraph": "A scramble is set of instructions to get to a random configuration of a Rubiks Cube. In tournament, instead of having a human randomly mix the cube, which may be unfair, people use official scrambles. Rather than performing random instructions, these scrambles pick a random valid cube and then solve it and reverse the steps. You can click 'Generate scramble' to generate a new one, and you can also toggle a setting to automatically generate new scrambles when you start and stop the timer. Click 'Scramble guide' for more details on what the moves are and how to scramble. There's also an interactable cube that you can play with."
+		},
+		{
+			"title": "What is a Rubiks Cube?",
+			"paragraph": "A Rubik's Cube is a three-dimensional puzzle that consists of a 3x3x3 grid of smaller cubelets (also known as cubies). Each face of the cube is a different color, and the goal is to solve the puzzle by arranging the cubelets such that each face of the cube is a single, solid color. It was invented by Ernő Rubik in 1974 and gained widespread popularity in the 1980s. The Rubik's Cube is known for being a simple puzzle that is complex to solve. It requires logic and problem-solving skills to solve, and can be extremely difficult to solve without a tutorial. Over the years, it has become an iconic puzzle known worldwide."
+		},
+		{
+			"title": "How to Start Cubing",
+			"paragraph": "To begin cubing, you'll need to first familiarize yourself with the cube's structure and understand the basic solving principles. Start by learning the notation system that represents the various moves and algorithms. There are several methods to solve the cube, with the most popular being the CFOP (Cross, F2L, OLL, PLL) method. Practice the foundational techniques like solving the first layer (cross and corners) and gradually work your way through the cube, layer by layer. Patience and perseverance are key, as solving the Rubik's Cube can be a complex and rewarding puzzle to master."
+		},
+		{
+			"title": "How to Solve a Rubiks Cube Face",
+			"paragraph": "To solve a face, pick a color as your starting point. White is commonly the first color to choose. Begin by solving the white cross in the center of that face. Once the cross is complete, work on filling in the corners surrounding the white center to make the entire white face. To do this, you'll need to manipulate the cube using specific algorithms to ensure that the white stickers on the corners align correctly."
+		},
+		{
+			"title": "",
+			"paragraph": "It's important to note that there are 6 center pieces (with one color) and they are fixed, meaning their positions do not change. There are 12 edge pieces (with two colors) and 8 corner pieces (with three colors). The edge pieces are always on an edge and the corner pieces are always on a corner. In a solved cube, there is only one white-blue edge and it goes between the white center and blue center, and there is only one white-blue-orange edge and it goes between the white, blue, and orange centers. By thinking of the cube this way, it makes it much easier to understand how to solve it fundamentally."
+		},
+		{
+			"title": "",
+			"paragraph": "First, locate the four white edge pieces to assemble the white cross. For each one, move it such that it is between white and its other color, while not messing up the other solved white cross edges. If you find yourself with an edge flipped (meaning the white side is away from the white center), rotate that side such that the edge is between two non white sides. For example, if the white-blue corner has the blue sticker facing white and the white sticker facing blue, rotate it such that the piece is between blue and orange or between blue and red. Now, we will rotate the top (white cross in progress) and then rotate the face such that this edge is on top, and rotate back. For example, if we moved the white-blue piece towards orange (orange is to the right of blue) we then rotate the white face counterclockwise, so when we rotate the orange face and place the white-blue edge on top, we can rotate it clockwise to put the rest of the cross back and have the white-blue piece between white and blue."
+		},
+		{
+			"title": "",
+			"paragraph": "After the white cross is assembled, we will want to solve the four white corners. Find a corner (for example, white-blue-orange) and place it on the opposite side (yellow) such that if it were to \"fall\" down it would be in the right position (but not necessarily orientation). Once you have the piece there (for example, in the yellow-blue-orange corner), then you will want to perform the following algorithm over and over until the piece is in place at the bottom (where \"up\" is the yellow face) R, U, R', U'. This is \"right, up, right inverse, up inverse.\" This algorithm can also be used later to solve other parts, and you can quickly get the hang of it after repeating it many times. If you repeat this 6 times, you end up back where you started. In our usage, orient the cube such that the yellow face is at the top and the bottom right corner of it is the piece you want to place on the white face (when solved would be the yellow-blue-orange corner, currently the white-blue-orange corner). Rotate the right side (blue in our example) clockwise, then rotate the top (yellow face) clockwise, then rotate the right side counterclockwise, then rotate the top counterclockwise. Repeat these four steps until the cube is in place at the correct position and orientation."
+		},
+		{
+			"title": "",
+			"paragraph": "When you perform this algorithm on all four corners, the white face is solved. Solving one face is a satisfying step towards solving the entire cube. The next steps will be solving the edges in the \"middle\" (non white, non yellow), then solving the yellow cross and then finishing the yellow face. However, I suggest you get comfortable with the white face before moving on."
+		},
+		{
+			"title": "How to Solve a Rubiks Cube for Beginners",
+			"paragraph": "Here's a brief overview of the steps to solve a Rubik's Cube: First solve the first layer. Typically, the solver picks white. Then, solve the middle layer by orienting the middle edge pieces while keeping the white face intact. Lastly, solve the final layer. There are two main algorithms, OLL (Orientation of Last Layer) and PLL (Permutation of Last Layer), that are used to orient and permute the last layer pieces. After applying the OLL and PLL algorithms, you might have some last layer pieces out of place. Use additional algorithms or sequences to position them correctly. Be patience and practice memorizing algorithms. It is difficult to learn, but with enough time and practice, you can do it! This video tutorial explains it simply: https://youtu.be/VeeFwwAz7no?si=U36_6irMNm7xemsI"
+		},
+		{
+			"title": "Advanced Rubiks Cube Methods",
+			"paragraph": "If you're looking to become a speedcuber, consider learning more advanced methods like CFOP (Cross, F2L, OLL, PLL) or Roux, which can significantly reduce solving times."
+		},
+		{
+			"title": "World Record History of Rubiks Cubes",
+			"paragraph": "The first official Rubik's Cube World Championship took place in 1982, and Minh Thai from the United States won with a time of 22.95 seconds. As cubers around the world honed their skills, records continued to fall. In 2003, the first sub-20 second solve was achieved, and Feliks Zemdegs from Australia set a world record of 5.66 seconds in 2013. The evolution of solving methods, such as the CFOP (Cross, F2L, OLL, PLL) method, played a crucial role in achieving faster times. In 2018, Yusheng Du from China broke the 4-second barrier with a time of 3.47 seconds. In December 2021, Max Park solved it in 3.13 seconds. The world record continues to be shattered, thanks to the dedication and innovation of speedcubers worldwide, making the Rubik's Cube one of the most thrilling and dynamic puzzle competitions in the world. There are other records for different types of cubes as well."
+		},
+		{
+			"title": "How Many Positions are There in a Rubiks Cube?",
+			"paragraph": "There are 43,252,003,274,489,856,000 (approximately 43 quintillion) possible combinations of a 3x3x3 cube. This massive number results from the cube's 54 individual stickers being rearranged in various ways, with each turn of the cube creating a new combination. This complexity is what makes the Rubik's Cube such a challenging and intriguing puzzle, and it has led to the development of various solving methods and algorithms by enthusiasts and speedcubers around the world."
+		},
+		{
+			"title": "How is the Number of Possible Positions Calculated?",
+			"paragraph": "There are 6 fixed center cubes. Since their positions do not change, they do not contribute to permutations. There are 12 edge pieces, and each can be oriented in two ways (either flipped or not flipped) and can be in one of 12 positions. There are 2^12 ways to orient the edges and 12! ways to arrange them. There are 8 corner pieces and each can be oriented in three ways (correctly, clockwise, or counterclockwise) and can be in one of 8 positions. There are 3^8 ways to orient the corners and 8! ways to arrange them. However, 12! X 8! X 2^12 x 3^8 is 519,024,039,293,878,272,000, which is the number of ways to put the cube back together. Not all of these combinations are solvable. It is impossible to have one corner twisted, one edge flipped, or two pieces swapped. We remove an edge flip (so we use 2^11 instead of 2^12), we remove a corner twist (so we use 3^7 instead of 3^8) and we divide the corner positions by 2. We can divide by 12 to account for this, and we get 3,252,003,274,489,856,000 (approximately 43 quintillion). The formula is 12! edge positions x 8!/2 corner positions x 2^11 edge flips x 3^7 corner twists. See https://youtu.be/z2-d0x_qxSM?si=Wd1W1NhLvPO8rdtS https://www.therubikzone.com/ https://www.therubikzone.com/number-of-combinations/"
+		},
+		{
+			"title": "How Many Moves Are There in a Rubiks Cube?",
+			"paragraph": "There are 18 different types of moves in standard notation. There are six faces: right (R), left (L), up (U), down (D), front (F), back (B). Each one can be moved clockwise, twice, or counterclockwise, expressed as R, R2, or R' (pronounced \"R prime\"). There are also three slices as well, but these aren't considered standard moves. See the scramble guide in the app for more."
+		},
+		{
+			"title": "What is a Rubiks Cube Slice?",
+			"paragraph": "A slice refers to a move that turns the middle layer without affecting the outer layers. The slice moves are middle layer (M), equatorial layer (E) and standing layer (S). These moves allow the solver to shortcut a process that would otherwise take more moves."
+		},
+		{
+			"title": "Is Every Position in a Rubiks Cube Solvable?",
+			"paragraph": "Not every position of a Rubik's Cube is solvable by legal moves if you take apart the cube and swap pieces. There are positions that are unsolvable because they violate the laws of the cube's movement. Swapping two edge pieces, having one corner twisted, or having one edge flipped while leaving the rest of the cube unchanged is impossible to solve through legal moves. However, if the cube itself is in a state that was reached from legal moves, it is solvable from any position."
+		},
+		{
+			"title": "Why do Cubers use Specific Scrambles Instead of Random Moves?",
+			"paragraph": "Specific scrambles provide consistent starting points for all competitors, ensuring fairness by presenting equally challenging configurations. Random moves could create unfairly easy or difficult positions, making standardized scrambles essential for a level playing field in competitions."
+		},
+		{
+			"title": "How do I Train for a Cubing Competition?",
+			"paragraph": "Training for a cubing competition involves a mix of practice, strategy, and mental preparation. Start by mastering key solving methods such as CFOP or Roux, honing algorithms, and improving finger dexterity. Work on speed and accuracy through regular solving sessions, gradually increasing speed while maintaining precision. Familiarize yourself with competition regulations and practice solving under time constraints to simulate the competitive environment. Mental preparation is crucial, so manage nerves and stay focused by participating in mock competitions or solving in front of others. Finally, stay consistent, stay positive, and enjoy the process!"
+		},
+		{
+			"title": "What to Expect at a Cubing Competition",
+			"paragraph": "At a cubing competition, expect a structured yet friendly environment. You'll find different events with specific rules and time constraints. There will be designated areas for solving and warm-up, and judges ensuring fairness. Competitors usually get allocated solving slots, and it's essential to follow regulations strictly. You'll meet fellow cubers, some at varying skill levels, and it's a great opportunity to learn and socialize. Overall, anticipate a mix of focus, excitement, and camaraderie!"
+		},
+		{
+			"title": "What are the Other Rubiks Cube Sizes and Variants?",
+			"paragraph": "Apart from the classic 3x3 Rubik's Cube, there's a range of sizes and variants in the Rubik's Cube family. These include the 2x2 (Pocket Cube), 4x4 (Rubik's Revenge), 5x5 (Professor's Cube), and even larger cubes like the 6x6 and 7x7. Variants extend beyond cubes, including the Pyraminx, Megaminx, Skewb, Square-1, and more, each with its unique solving challenges. Additionally, there are shape mods that alter the cube's appearance and solving mechanics, adding further complexity and diversity to the puzzle-solving experience."
+		},
+		{
+			"title": "How Cubing Competitions are Scored and Timed",
+			"paragraph": "In cubing competitions, the most common timing method is the WCA (World Cube Association) format. Competitors start the timer themselves and stop it when the puzzle is solved. For the average of five or three solves, the fastest and slowest times are removed, and the average of the remaining times is taken. Penalties are applied for rule violations or puzzle malfunctions. Events may have specific regulations, but accurate timing, penalties, and averaging times determine a competitor's final score and ranking in each event."
+		},
+		{
+			"title": "How Many Moves Does it Take to Solve a Rubiks Cube at Most?",
+			"paragraph": "The maximum number of moves required to solve any position on a standard 3x3 Rubik's Cube is 20. This is often referred to as \"God's Number,\" indicating that any scrambled state on the cube can be solved in 20 moves or fewer. This discovery was achieved through extensive computer algorithms and mathematical analysis, showcasing the cube's remarkable solvability within a reasonably limited number of moves."
+		},
+		{
+			"title": "How are Speed Cubes Built?",
+			"paragraph": "Speed cubes are meticulously designed to optimize performance, speed, and smoothness in solving. They often feature a core mechanism with adjustable tensions for the cube's layers, allowing cubers to customize the feel and speed. The internal structure includes specialized mechanisms like the corner-cutting design, enabling the cube to make sharp turns without jamming. High-quality materials like specialized plastics and lubricants are used to reduce friction and enhance speed. Additionally, the stickerless or durable sticker designs aim to prevent peeling and maintain visibility during fast solves. The combination of these factors contributes to the construction of a speed cube, prioritizing agility and smooth operation for cubers aiming for quick solving times. See this video for more: https://youtu.be/SBcbiFqz3aU?si=M_6SzapiyzPYrjWW"
+		},
+		{
+			"title": "How to Read Scramble Notation",
+			"paragraph": "Scramble notation uses symbols for Rubik's Cube moves: F (front), B (back), U (upper), D (down), R (right), and L (left). Clockwise turns are denoted by the letter, counterclockwise with an apostrophe ('), and 180-degree turns with a '2'. Reading these symbols guides replicating specific cube configurations for practice or competition."
+		},
+		{
+			"title": "How to Adjust your Rubiks Cube",
+			"paragraph": "Adjusting a Rubik's Cube typically involves modifying the tension of its core mechanism to achieve smoother turns. To do this, most cubes have screws on their center caps that can be adjusted using a screwdriver. Tightening these screws increases the cube's stability but might make it stiffer to turn, while loosening them enhances speed but can lead to instability. Experiment by making small adjustments to find the balance that suits your preference, ensuring the cube moves smoothly without popping pieces or feeling too loose."
+		},
+		{
+			"title": "Who Created the Rubiks Cube?",
+			"paragraph": "The Rubik's Cube was invented by Ernő Rubik, a Hungarian architect and professor of architecture. He created the cube in 1974 as a teaching tool to help his students understand three-dimensional geometry. Initially named the \"Magic Cube,\" it gained immense popularity after being mass-produced and distributed internationally by the Ideal Toy Corporation in the 1980s, eventually becoming known as the Rubik's Cube, a global icon in the world of puzzles and games."
+		},
+		{
+			"title": "Creating an Image with Rubiks Cubes",
+			"paragraph": "Creating images with Rubik's Cubes involves arranging the cubes in specific patterns or configurations to form a larger image. This process is often called \"Rubik's Cube mosaic art.\" To achieve this, individuals solve multiple Rubik's Cubes in predetermined patterns and positions, arranging them according to a design or template. The solved cubes' colored faces collectively create a larger picture or image when viewed from a distance. This art form requires meticulous planning, a keen eye for color placement, and often involves software to generate templates for the design. It's a unique and visually captivating way to use Rubik's Cubes as a medium for artistic expression. Check out this interesting video: https://youtu.be/vgicYVYft3s?si=hmdA5HIWMWG77Afk"
+		}
+	],
+	"calendar": [
+		{
+			"title": "Overview",
+			"paragraph": "You can view a calendar for any week, month, or year in several different views. Each view is printer friendly and can easily be traversed by using the three buttons on the top left, which take you to today, back, and forward."
+		},
+		
+		{
+			"title": "Keyboard Shortcuts",
+			"paragraph": "You can change displays with the keys W for week, M for month Y for year and L for year list. You can also use the arrow keys to go left and right time periods, and hit T for today."
+		}
+	],
+	"weather": [
+		{
+			"title": "Overview",
+			"paragraph": "There are three displays: current, daily, and hourly. The current display shows the current weather, temperature, time, high, low, wind, rain, humidity, UV index, and more. It also shows the last updated time and the coordinates. You can always refresh the page to update the weather. Click the pencil icon to edit the location used, which should default to and can easily be set to your current location. Click on the unit (F or C) to change units. The current section is the primary display. The daily and hourly sections are the secondary displays. The daily display shows the expected weather in your chosen location for each future day for seven days, and also shows the high and low. The hourly view gives much more detailed information, and you can customize the number of days shown in the hourly view in settings, up to 6 days (144 hours)."
+		},
+		{
+			"title": "Change Units",
+			"paragraph": "You can change units by clicking the temperature unit in the primary display (F or C) or go to settings and under Units click on your desired unit. Metric units will use C for temperatures, mm for rain, and km/h for wind. Imperial units will use F for temperatures, in for rain, and mph for wind."
+		},
+
+		{
+			"title": "What is the difference between temperature and feels like temperature?",
+			"paragraph": "The temperature is the actual measurement of the air, while the 'feels like' temperature takes into account factors like humidity and wind, providing a more accurate perception of how the weather feels."
+		},
+		{
+			"title": "What is humidity?",
+			"paragraph": "Humidity is the amount of water vapor present in the air. It is often expressed as a percentage and plays a crucial role in influencing weather conditions and human comfort."
+		},
+		{
+			"title": "What is UV index?",
+			"paragraph": "The UV index measures the strength of ultraviolet (UV) radiation from the sun. It provides information about the potential harm to the skin and helps people take precautions to avoid overexposure."
+		},
+		{
+			"title": "How is rainfall measured?",
+			"paragraph": "Rainfall is typically measured using a rain gauge, a device designed to collect and measure the amount of precipitation that falls over a specific period, usually in millimeters or inches."
+		},
+		{
+			"title": "How is rain predicted?",
+			"paragraph": "Rain prediction involves the use of weather models, satellite data, and ground-based observations to forecast atmospheric conditions. Meteorologists analyze these factors to predict the likelihood and intensity of rainfall in a particular area."
+		},
+		{
+			"title": "How is wind speed predicted?",
+			"paragraph": "Wind speed prediction relies on various tools such as anemometers, weather balloons, and computer models. These instruments measure and analyze atmospheric conditions to forecast the speed and direction of the wind."
+		},
+		{
+			"title": "What wind speed is considered fast/dangerous?",
+			"paragraph": "Wind speeds are categorized into different levels, and what is considered fast or dangerous depends on the scale used. Generally, sustained winds above 40 mph (64 km/h) are considered strong, while those exceeding 74 mph (119 km/h) can be classified as hurricane-force winds."
+		},
+		{
+			"title": "How does weather influence mood and well-being?",
+			"paragraph": "Weather holds a profound sway over our emotions and well-being. Sunlight is known to boost mood and energy levels, while gloomy days can sometimes evoke a sense of calm. Understanding these connections allows individuals to adapt their routines and self-care practices based on the weather forecast."
+		},
+		{
+			"title": "How does weather forecasting work?",
+			"paragraph": "Weather forecasting relies on a sophisticated blend of meteorological instruments, satellite data, and computer models. Meteorologists analyze atmospheric conditions, temperature patterns, and pressure systems to make predictions. Advances in technology continue to refine the accuracy and reliability of weather forecasts."
+		},
+		
+		{
+			"title": "What are the most extreme climates in the world?",
+			"paragraph": "The world is home to diverse and extreme climates, showcasing nature's remarkable variability. The Atacama Desert in Chile stands as one of the driest places, receiving minimal rainfall, while Antarctica's McMurdo Dry Valleys present an icy, cold desert landscape. Death Valley in the USA holds the record for the highest reliably reported air temperature on Earth, reaching a scorching 134°F (56.7°C). The Sahara Desert in Africa, with its vast arid landscapes, experiences extremely high temperatures during the day. Verkhoyansk in Russia is among the coldest inhabited places, facing winter temperatures below -50°C (-58°F). The Lut Desert in Iran recorded one of the highest ground temperatures ever measured, reaching 159.3°F (70.7°C). Mawson Station in Antarctica battles harsh polar conditions, while Denali in Alaska faces extreme mountain weather with freezing temperatures, high winds, and frequent storms. These examples illustrate the extremes of heat, cold, and aridity found across our planet."
+		},
+		{
+			"title": "What is the hottest temperature recorded on earth?",
+			"paragraph": "The hottest temperature recorded on Earth occurred in Furnace Creek Ranch (Death Valley), California, USA, on July 10, 1913. The temperature reached a scorching 134°F (56.7°C)."
+		},
+		{
+			"title": "What is the coldest temperature recorded on earth?",
+			"paragraph": "The coldest temperature recorded on Earth was at the Soviet Union's Vostok Station in Antarctica. On July 21, 1983, the temperature dropped to an extremely frigid -128.6°F (-89.2°C)."
+		}
+	],
+	"pictureinpicture": [
+		{
+			"title": "Overview",
+			"paragraph": "Picture-in-picture allows you to open a video in a pop-out window on top of other apps. We created the picture-in-picture clock and timer so you can use this functionality to see the time and date, or to keep track of a timer."
+		},
+		{
+			"title": "Usage",
+			"paragraph": "Use the tabs at the top to change between date and time display and timer display. In timer mode, enter the desired hours and minutes, then click start. Click the picture-in-picture button at the top, or right click the video and select \"picture in picture\" to enter picture-in-picture mode."
+		},
+		{
+			"title": "Support",
+			"paragraph": "Picture-in-picture support varies by browser and operating system, however, it's generally supported on chromium browsers such as Chrome and Edge, and not on Firefox. It is also possible to disable picture-in-picture on your device, and doing this would also cause this mode to be inaccessible. However, regardless of support, you can still use the picture-in-picture clock and timer as a normal clock and timer; it simply will not pop-out."
+		},
+		{
+			"title": "Known Issues",
+			"paragraph": "Switching apps, minimizing, or navigating away to another page may cause picture-in-picture to stop, depending on your device."
+		},
+		{
+			"title": "How Does it Work?",
+			"paragraph": "We add the clock or timer onto a canvas element, then create a video stream from the canvas so that the clock or timer can be used in picture-in-picture mode."
+		}
+	],
+	"timer": [
+		{
+			"title": "Overview",
+			"paragraph": "Create a timer by entering either hours, minutes, and/or seconds, then click start. You can optionally give your timer a name. Once created, you can use the buttons above it to pause and resume the timer, reset the timer, enter fullscreen, and delete the timer. You can create multiple timers. Open settings to change sound settings for when a timer is over."
+		}
+	],
+	"countdown": [
+		{
+			"title": "Overview",
+			"paragraph": "Create a countdown by selecting a date and time, then click start. You can optionally give your countdown a name. Once created, you can use the buttons above it to enter fullscreen or delete the countdown. You can create multiple countdowns. Open settings to change sound settings for when a countdown is over."
+		}
+	],
+	"timestamp": [
+		{
+			"title": "Overview",
+			"paragraph": "The timestamp app is split into multiple sections. Scroll to view all sections, or change the display in settings to tabs to view one section at a time instead."
+		},
+		{
+			"title": "Timezones",
+			"paragraph": "Timestamps are always measured in GMT (0 UTC offset), so there is no ambiguity. However, if you enter a date and time or want to display a timestamp as date and time, you will want to pick a timezone. You can choose if the date and time you entered is in GMT or your local time to ensure you get the correct values."
+		},
+		{
+			"title": "Use Today's Date",
+			"paragraph": "There are buttons in each section to use the current date. Click them and they will set their section to the current date and time. They will be accurate to the timezone you selected."
+		},
+		{
+			"title": "Convert Timestamp or Date",
+			"paragraph": "This section allows you to select a timestamp or a date and time, and both convert it and view information about it. To enter a timestamp, select the first tab, and then select milliseconds or seconds. To enter a date and time, select the second tab. You can choose the input type that is easiest for you: date and time inputs, date text, or individual numbers for year, month, and so on. The timestamp information below will automatically update and display timestamps, local time and GMT time, the time relative to now, and the time in specific tiem format specifications such as ISO 8601."
+		},
+		{
+			"title": "Current Unix Timestamp",
+			"paragraph": "This section will display the current timestamp, which automatically updates every second. The timestamp will be displayed in seconds, milliseconds, hex (seconds), and the local and UTC times will be displayed as well. There are copy buttons you can use to easily copy a timestamp."
+		},
+		{
+			"title": "Time Difference",
+			"paragraph": "This section allows you to enter a timestamp or date and time on one side and a timestamp or date and time on another side, and see the difference between them. You can see the difference in days, as well as milliseconds and seconds, as well as which time is ahead of the other. You can also use buttons to quickly enter the current date and time."
+		},
+		{
+			"title": "Day, Month, Year Start/End",
+			"paragraph": "This section allows you to view epoch dates for the start and end of a specific year, month, or day. First, select either year, month, or day, and then select the specific time (and timezone) you want to use. You will see the first and last second of the entered year/month/day in both timestamps and in date and time text in GMT and your timezone."
+		},
+		{
+			"title": "Convert Sections to Other Units",
+			"paragraph": "This section allows you to enter a number of seconds (or other units) and convert it to other units such as years and days."
+		},
+		{
+			"title": "Days Per Year",
+			"paragraph": "Non-leap years have 365 days, but leap years have 366. Every 4 years is a leap year, but not every 100 except every 400. This is why There are 365.2425 days per year in the Gregorian calendar. In an astrological year, there are 365.2422 days, however, this app uses 365.2425 since it is what our calendars use. This small difference accounts for an error of one day every 3333.3 years."
+		},
+		{
+			"title": "How Many Seconds In...",
+			"paragraph": "This section displays a simple table of how many seconds are in 1 hour, day, week, month, and year. As mentioned above, years have 365.2425 days. One month in this section is considered to be 1/12 of a year, which is 30.436875 days."
+		},
+		{
+			"title": "Timestamp Information",
+			"paragraph": "This section displays useful information on GMT, UTC, timestamps, and time standards."
+		}		
+	],
+	"birthdays": [
+		{
+			"title": "Overview",
+			"paragraph": "Birthdays is a simple app that lets you add birthdays for friends and family! You can view birthdays in a month calendar and in a simple list, and customize the appearance of your app. Easily track all of your friends' birthdays, in one place! You can also import and export birthdays and print a list of birthdays as well."
+		},
+		{
+			"title": "Adding Birthdays",
+			"paragraph": "To add a birthday, click the add birthday button on the bottom. Birthdays are displayed by month, starting with the current month."
+		},
+		{
+			"title": "Displays",
+			"paragraph": "You can customize the display by clicking the '1' and '2' buttons, just like on many other apps. You can also go to settings to change the primary and secondary displays. The primary display is the birthday list, and can show a simpler list, great for seeing many birthdays at once, or a full list, with more detailed information. The secondary display is the month calendar and can be made smaller or hidden. You can also show or hide the searchbar and the month headings. You can also sort birthdays starting with the current month, or the beginning of the year."
+		},
+		{
+			"title": "Highlight Close Birthdays",
+			"paragraph": "Check this setting and enter a number of days to highlight birthdays that are that many days or less away from today."
+		},
+		{
+			"title": "Print Birthdays",
+			"paragraph": "Customize your display as you want (change the primary display, show/hide month headings, start at beginning of year or current month) and then click the print button at the bottom (or hit ctrl+P) to print your birthdays."
+		},
+		{
+			"title": "Import and Export Birthdays",
+			"paragraph": "n the settings, you'll find two text input fields for import and export. To share your data, you can copy the text from the export field and send it to a friend, allowing them to import it. Alternatively, you can copy the link containing the birthdays. You can then either paste this data into the import field or open the link directly to import the birthdays. Each birthday has a unique ID, so you can have multiple people with the same name and birthday. If you import birthdays that already exist (with the same ID), your original entries will be preserved, avoiding any unwanted duplicates."
+		},
+		{
+			"title": "Leap Days",
+			"paragraph": "Birthdays on leap days (Feb 29) are treated as Mar 1 if it's a non leap year and Feb 29 if it is a leap year. Their age will be counted in how many years since their birthday, not how many Feb 29s since their birthday."
+		}
+	],
+	"app": [
+		{
+			"title": "App Specific Knowledge"
+		},
+		{
+			"title": "All Available Apps",
+			"paragraph": "You can find a list of apps at https://desktopclock.app/more. You can choose which apps are displayed in the side navigation by clicking the pin icon on the top right. You can visit the app by clicking on the card. Each app has its own settings, which can be accessed by going to \"Settings\" in the side navigation, or by hitting the 'S' key. The app specific settings are in the leftmost tab, and the other tabs are for the entire website. For example on the stopwatch page, if you open settings, the leftmost tab is for stopwatch settings."
+		},
+		{
+			"title": "Changing Primary and Secondary Displays",
+			"paragraph": "Many apps allow you to change primary and secondary displays to customize how the user interface looks. You can go to the app specific settings and then \"Displays\" to change primary and secondary displays on apps that support different displays. You can also hit the 'P' key or click the '1' button to toggle the primary display, or hit the 'D' key or click the '2' button to toggle the secondary display."
+		},
+		{
+			"title": "Common Website Settings"
+		},
+		{
+			"title": "Changing Colors",
+			"paragraph": "Go to Settings > Appearance > Aesthetics and then select the base and accent colors of your choice. These colors will be used everywhere in your Desktop Clock! You can click \"Dark\", hit the 'N' key, or click the sun/moon icon on any page to toggle night mode."
+		},
+		{
+			"title": "Customizing the User Interface",
+			"paragraph": "Go to Settings > Appearance > User Interface. You can choose which buttons to show on the title bar, choose if you want a smaller menu, if you always want the menu collapsed on larger screens, and if you'd like to hide the title bar when idle."
+		},
+		{
+			"title": "Chromecast",
+			"paragraph": "Go to Settings > General > Application and click the \"Cast\" button to begin Chromecasting. You can add the cast button to your title bar in Settings > Appearance > User Interface, by selecting \"Show cast button\"."
+		},
+		{
+			"title": "Shortcuts",
+			"paragraph": "You can enable or disable double click fullscreen and keyboard shortcuts by going to Settings > General > Shortcuts. You can also view a list of keyboard shortcuts there."
+		},
+		{
+			"title": "Changing Language, Datetime Locale, and Timezone",
+			"paragraph": "You can change language, datetime locale, and timezone inside Settings > General > Locale. These values cannot be changed if you have automatically detect turned on below. You can always reenable \"automatically detect\" to use your system default language, datetime locale, and timezone."
+		}
+		
+	],
+	"goals": [
+		{
+			"title": "Design Philosophy",
+			"paragraph": "Desktop Clock aims to be a tool that is both simple to use and has every setting and every clock you'll ever need. We take special consideration into user experience, creating a beautiful, clean, and elegant user interface, and making a highly performant app. We also try our best to design around every single screen size, no matter how crazy. Lastly, we want everything available for you offline, quickly and easily, and we want the minimum noise in the way. That means no backend (we may in the future consider offering account storage in the cloud) and no ads (we may consider adding a small banner in the settings menu to support one of our board game releases, stay tuned!)."
+		},
+		{
+			"title": "Our Mission",
+			"paragraph": "If there is anything clock, time, or timer related in the world, we want it here! Our goal is quite simply to deliver an amazing product to as many people as possible, and make sure that we're improving your life and reducing stress or hassle when possible."
+		}
+	],
+	"time": [
+		{
+			"title": "What is a second?",
+			"paragraph": "A second is a fundamental unit of time. It was originally defined as a fraction of a day. However, that definition was based on Earth's rotation, which can change with irregularities in Earth's rotation speed. For scientific timekeeping, the International System of Units (SI) adopted a new definition based on the atomic vibrations of cesium atoms. One second is now defined as the duration of 9,192,631,770 periods of the radiation corresponding to the transition between two hyperfine levels of the cesium-133 atom."
+		},
+		{
+			"title": "The Evolution of Clocks",
+			"paragraph": "Clocks have been used for thousands of years. Long ago, sundials were invented to track the motion of the sun's shadow. Grandfather clocks use a pendulum with a carefully calculated weight to ensure a specific oscillation period. Now, atomic clocks can measure time to within a few nanoseconds. At this level of precision, they maintain accuracy to about one second every several million years."
+		},
+		{
+			"title": "What are atomic clocks?",
+			"paragraph": "Atomic clocks are very precise timekeeping devices that rely on the vibrations or oscillations of atoms to measure time. These clocks are widely regarded as the most accurate timekeeping instruments available and serve as the foundation for international time standards. There are different types of atomic clocks, including cesium atomic clocks, rubidium atomic clocks, and hydrogen maser clocks, each based on different atomic elements and technologies. Atomic clocks are used in global positioning systems and telecommunications."
+		},
+		{
+			"title": "Types of Atomic Clocks",
+			"paragraph": "Cesium atomic clocks are the most common type of atomic clock. They are based on the vibrations of cesium atoms. Cesium atomic clocks are so accurate that they can measure time to within a few nanoseconds."
+		},
+		{
+			"title": "",
+			"paragraph": "Rubidium atomic clocks use rubidium atoms as their timekeeping reference. They are slightly less accurate than cesium atomic clocks but still very precise. They can typically maintain accuracy within a few microseconds over the course of a year."
+		},
+		{
+			"title": "",
+			"paragraph": "Hydrogen maser clocks are even more accurate than cesium atomic clocks. They use hydrogen atoms and maser (microwave amplification by stimulated emission of radiation) technology to achieve astounding precision. These clocks can maintain accuracy to within a few picoseconds (trillionths of a second) over the span of a year."
+		},
+		{
+			"title": "Applications of Atomic Clocks",
+			"paragraph": "Time Standards: Atomic clocks, especially cesium and hydrogen maser clocks, serve as the foundation for international time standards. Coordinated Universal Time (UTC) is based on a combination of atomic clocks from around the world. UTC is used as a reference for global timekeeping and is used in various applications, including satellite navigation systems (such as GPS) and telecommunications. Atomic clocks have also been used to test aspects of Einstein's theory of relativity and investigate phenomena like time dilation."
+		},
+		{
+			"title": "What is time dilation?",
+			"paragraph": "Time dilation states that time isn't absolute, but rather relative to an observer's motion and gravitational field. This has been experimentally confirmed and has profound implications in our understanding of the universe."
+		},
+		{
+			"title": "What is the difference between UTC and GMT?",
+			"paragraph": "GMT was originally based on the mean solar time at the Prime Meridian, which runs through the Royal Observatory in Greenwich, England. It was traditionally the standard time at the Prime Meridian, and it didn't account for variations in the Earth's rotation."
+		},
+		{
+			"title": "",
+			"paragraph": "UTC is a modern and highly precise time standard. It was introduced to account for irregularities in the Earth's rotation. UTC is based on highly accurate atomic clocks and is adjusted periodically to keep it within 0.9 seconds of mean solar time (UT1). This adjustment is made by occasionally adding leap seconds, which GMT does not incorporate."
+		},
+		{
+			"title": "",
+			"paragraph": "UTC is recognized as the global standard for timekeeping and used for activities like global navigation and satellite communication. GMT is historically significant but is less commonly used in formal contexts."
+		},
+		{
+			"title": "",
+			"paragraph": "Colloquial Usages: people often use \"GMT\" and \"UTC\" interchangeably when referring to time zones that are the same or nearly the same. However, \"UTC\" is the more accurate and up-to-date term for modern timekeeping. GMT is often used colloquially to refer to the time zone at the Prime Meridian (UTC+0). However, time zones around the world are defined in relation to UTC, not GMT. UTC is the basis for the time offsets of different time zones, including UTC+1, UTC-5, etc."
+		},
+		{
+			"title": "Types of Clocks",
+			"paragraph": "Quartz Clocks: Most modern analog clocks, like wall clocks and wristwatches, use a quartz crystal as their timekeeping element. Quartz clocks operate based on the piezoelectric properties of quartz crystals. When an electric current is applied to the crystal, it vibrates at a precise frequency. These vibrations are counted and used to measure time. A circuit called an oscillator divides the vibrations into regular intervals, driving the clock's hands."
+		},
+		{
+			"title": "",
+			"paragraph": "Atomic Clocks: Atomic clocks are the most precise timekeeping devices. They use the vibrations of atoms (typically cesium or rubidium) to measure time. The transition between specific energy levels in the atoms is incredibly consistent, allowing atomic clocks to provide extremely accurate timekeeping."
+		},
+		{
+			"title": "",
+			"paragraph": "Digital Clocks: Digital clocks display time using numeric digits. They often rely on quartz crystal oscillators and microprocessors to convert the crystal's vibrations into a digital display."
+		},
+		{
+			"title": "",
+			"paragraph": "Radio-Controlled Clocks: Some modern clocks, often digital ones, are radio-controlled. They receive time signals from dedicated transmitters, such as those operated by national timekeeping organizations. These clocks automatically adjust their time to remain extremely accurate."
+		},
+		{
+			"title": "",
+			"paragraph": "Computer Clocks: Computers and electronic devices often have internal clocks that rely on oscillators and are regularly synchronized with precise time standards via the internet."
+		},
+		{
+			"title": "How do analog clocks work?",
+			"paragraph": "Analog clocks work by using gears and hands to show the time on a clock face. A continuous energy source, like a battery or a winding spring, powers the clock. Gears transfer this energy to the clock's hands, which move around a clock face divided into hours and minutes. Some clocks have a pendulum that swings, producing a ticking sound. The clock hands show the current hour and minute. This traditional method of timekeeping has been used for centuries and is still popular for its classic design."
+		},
+		{
+			"title": "When was the analog clock invented?",
+			"paragraph": "The first analog clock, known as the \"water clock\" or \"clepsydra,\" was invented by the ancient Egyptians around 1500 BCE. It used the flow of water from one container to another to measure time. The earliest mechanical clocks resembling modern analog clocks appeared in Europe during the 14th century. Some early examples include the Salisbury Cathedral clock (1386) and the Wells Cathedral clock (1390). These clocks had no minute hands and were primarily used in churches to ring bells for religious purposes."
+		},
+		{
+			"title": "When was the digital clock invented?",
+			"paragraph": "The first digital clock as we know it today was created in the 1960s. The most famous early digital clock is the Model 801 designed by electrical engineer James L. Buie and produced by the company Digital Equipment Corporation (DEC) in 1961. This clock used flip-flop digital circuits to display the time in hours, minutes, and seconds."
+		},
+		{
+			"title": "What are time zones?",
+			"paragraph": "The Earth is divided into time zones, each roughly 15 degrees of longitude apart. 360 degrees of longitude are divided into 24 approximate zones, leaving 1 per hour in the day. This division helps maintain a synchronized global time system, allowing people to coordinate and schedule with each other worldwide. Here's an interesting video on time zones: https://youtu.be/NBDaLK6EjwI?si=nVrYQP8YBPSp1WY2"
+		},
+		{
+			"title": "How many time zones are there?",
+			"paragraph": "There are 24 time zones each defined by being 1 hour off of UTC, but some time zones are offset by 15, 30, or 45 minutes from the nearest primary timezone. Currently, there are 37 time zones. There are hundreds of official timezones: https://www.timeanddate.com/time/zones/."
+		},
+		{
+			"title": "What is a leap second?",
+			"paragraph": "To account for the gradual slowing of the Earth's rotation, leap seconds are occasionally added to Coordinated Universal Time (UTC). These extra seconds align our timekeeping systems with Earth's variable rotation speed. This means that atomic time and solar time remain in sync. When a leap second is introduced, UTC effectively pauses for one second. GMT does not use leap seconds."
+		},
+		{
+			"title": "What are 12 and 24 hour time formats?",
+			"paragraph": "Different cultures and regions use different time formats. Most commonly, there are the 12-hour clock (with AM and PM indicators) and the 24-hour clock. Most countries use 24 hour time, but some countries such as the United States, Canada, the United Kingdom, Australia, New Zealand, the Philippines, and Ireland use the 12-hour clock, and some countries such as India, South Africa, and Singapore use both the 12-hour and 24-hour clock systems."
+		},
+		{
+			"title": "What do AM and PM stand for?",
+			"paragraph": "\"AM\" stands for \"Ante Meridiem,\" which means \"before midday\" or \"before noon.\" It refers to the time from midnight (12:00 AM) up to just before noon (11:59 AM). \"PM\" stands for \"Post Meridiem,\" which means \"after midday\" or \"afternoon.\" It represents the time from noon (12:00 PM) until just before midnight (11:59 PM)."
+		},
+		{
+			"title": "What is Unix time?",
+			"paragraph": "Unix time, also known as Epoch time, is a system for tracking and representing time in computing. It is a way to express the current time as the number of seconds that have elapsed since 00:00:00 UTC on January 1, 1970, excluding leap seconds. This timestamp format is widely used in programming, databases, and operating systems for simplicity and ease of calculation. It provides a standardized method for handling dates and times across different platforms. Sometimes, timestamps are in milliseconds (rather than seconds), such as timestamps in JavaScript. You can obtain the current timestamp by using new Date().getTime()."
+		},
+		{
+			"title": "When is the end of unix time?",
+			"paragraph": "Unix time uses a 32-bit signed integer to store the number of seconds since Jan 1, 1970. The maximum representable date is 03:14:07 UTC on Jan 19, 2038. This is often referred to as the \"Year 2038 problem\" or the \"Unix Y2K38 problem.\" After this time, unix time will overflow, which may cause errors and crash systems that rely on this time format. Many systems are transitioning to 64-bit time representations to extend the range. If you're worried about when 64-bit time will run out, don't. It will cover another 292 billion years (for reference, the age of the universe is estimated to be around 13.8 billion years). 16-bit time would last for a little over 9 hours. Each additional bit doubles the amount of seconds you can store."
+		},
+		{
+			"title": "What is the difference between a solar day and a sidereal day?",
+			"paragraph": "The solar day is the time it takes for the Earth to complete one full rotation on its axis relative to the Sun. It's about 24 hours and is what we commonly refer to as a day. This period is marked by the Sun reaching its highest point in the sky (noon) to the next occurrence of noon. On the other hand, the sidereal day is based on the Earth's rotation relative to distant stars. It takes approximately 23 hours, 56 minutes, and 4 seconds for a specific star (usually not the Sun) to return to the same position in the sky. The slight difference in duration compared to a solar day is because, during that 24-hour period, the Earth not only spins on its axis but also orbits the Sun. In short, a solar day is relative to an Earth observer and a sidereal day is relative to an external observer. Check out this Veritasium video for more: https://youtu.be/FUHkTs-Ipfg?si=EYI69P1pj0BneiFo"
+		},
+		{
+			"title": "What is a geosynchronous orbit?",
+			"paragraph": "A geosynchronous orbit is when a satellite orbits the Earth at the same rate as the planet's rotation, making it appear stationary relative to a fixed point on the Earth's surface. These satellites are positioned directly above the equator at an altitude of approximately 35,786 kilometers (22,236 miles) and are commonly used for communication and weather monitoring due to their ability to provide continuous coverage of specific areas. See more in this minutephysics video: https://youtu.be/tI8OqpkOVzs?si=FbbQqqqPSFEo5LrO"
+		},
+		{
+			"title": "What is a solar eclipse?",
+			"paragraph": "A solar eclipse happens when the Moon comes between the Earth and the Sun, blocking sunlight. This creates a shadow on Earth, and there are two types: total (full blockage) and partial (partial blockage) solar eclipses. Check out this minutephysics video on solar eclipses: https://youtu.be/W7mVQ3kRPv8?si=eJ4LLVViNEO5axp2"
+		},
+		{
+			"title": "What is a lunar eclipse?",
+			"paragraph": "A lunar eclipse occurs when the Earth comes between the Sun and the Moon, causing the Earth's shadow to be cast on the Moon. This celestial alignment leads to the temporary darkening or reddening of the Moon, depending on the Earth's atmosphere. Lunar eclipses can be total, partial, or penumbral, depending on the extent of the Earth's shadow covering the Moon."
+		}
+
+	],
+	"dates": [
+		{
+			"title": "What is the Gregorian calendar?",
+			"paragraph": "The Gregorian calendar is the calendar system most people use today. It has 12 months and starts on January 1st. Every four years, an extra day is added to keep it in sync with the sun's position in the sky. It's used around the world for everyday life and business."
+		},
+		{
+			"title": "When was the Gregorian calendar developed?",
+			"paragraph": "The Gregorian calendar, widely used today, was introduced by Pope Gregory XIII in 1582 to reform the Julian calendar and address inaccuracies in dating Easter."
+		},
+		{
+			"title": "The Lunar Calendar",
+			"paragraph": "Many early calendars were based on lunar cycles, such as the Islamic Hijri calendar. Lunar calendars use the phases of the moon to determine months, making them roughly 29.5 days long. However, lunar calendars don't perfectly align with the solar year."
+		},
+		{
+			"title": "The Solar Calendar",
+			"paragraph": "Solar calendars, like the Gregorian calendar, are based on the Earth's orbit around the sun. They provide a more accurate way to synchronize with the seasons, which is essential for agricultural and climatic planning."
+		},
+		{
+			"title": "What is a leap year?",
+			"paragraph": "Leap years, introduced by Julius Caesar in the Julian calendar, are necessary to adjust for the fact that the Earth's orbit around the sun is approximately 365.2422 days. The Gregorian calendar refines this by having leap years with exceptions, ensuring that it is more closely synchronized with the solar year."
+		},
+		{
+			"title": "",
+			"paragraph": "A leap year is a year that contains an extra day, February 29th, in order to keep our calendar year synchronized with the astronomical year. The purpose of a leap year is to account for the fact that it takes approximately 365.2422 days for the Earth to orbit the Sun. Without the addition of leap years, over time, the calendar would become misaligned with the changing seasons."
+		},
+		{
+			"title": "How frequent are leap years?",
+			"paragraph": "Every 4 years a leap year occurs, where an extra day is added to the calendar. Those years are 366 days long (instead of 365). Years divisible by 100 are not leap years unless they are divisible by 400. For example, 2004, 2008, and 2012 are leap years, 1700, 1800, and 1900 are not leap years, and 1200, 1600, and 2000 are leap years. This is to ensure the calendar is synchronized with Earth's orbit, which is slightly shorter than 365.25 days long."
+		},
+		{
+			"title": "What would happen without leap years?",
+			"paragraph": "Leap years help to maintain the alignment of our calendar with the changing seasons. By adding an extra day every four years (with exceptions), we keep our annual calendar year roughly in sync with the Earth's orbit around the Sun, which takes approximately 365.2422 days. Without leap years, the calendar would gradually shift out of alignment with the astronomical year, causing the dates of the seasons to drift."
+		},
+		{
+			"title": "New Year's Day",
+			"paragraph": "Gregorian New Year: January 1st - This is the most widely recognized New Year's celebration, following the Gregorian calendar, and is observed in many countries worldwide with fireworks, parties, and countdowns."
+		},
+		{
+			"title": "",
+			"paragraph": "Chinese New Year: Date varies (between January 21  and February 20) - Also known as the Spring Festival, the Chinese New Year marks the beginning of the lunar calendar and is celebrated with dragon and lion dances, fireworks, and the giving of red envelopes (hongbao)."
+		},
+		{
+			"title": "",
+			"paragraph": "Islamic New Year (Hijri New Year): Date varies - The Islamic New Year follows the Islamic lunar calendar and commemorates the migration of the Prophet Muhammad to Medina. It is a time for reflection and remembrance."
+		},
+		{
+			"title": "",
+			"paragraph": "Rosh Hashanah: Date varies (usually in September) - The Jewish New Year is observed with religious services, the sounding of the shofar (ram's horn), and the consumption of symbolic foods like apples and honey."
+		},
+		{
+			"title": "",
+			"paragraph": "Nowruz: March 20th or 21st - Nowruz, also known as the Persian New Year, is celebrated in Iran and by various Persian communities. It marks the spring equinox and is observed with the Haft-Seen table, which features seven symbolic items."
+		},
+		{
+			"title": "",
+			"paragraph": "Songkran: April 13th to 15th - Songkran is the Thai New Year and is celebrated with water festivals and religious ceremonies. It is a time for cleansing and renewal."
+		},
+		{
+			"title": "",
+			"paragraph": "Diwali (Deepavali): Date varies (usually in October or November) - While not a New Year in the traditional sense, Diwali, the Festival of Lights, marks the victory of light over darkness and is celebrated in India and by Hindu communities worldwide."
+		},
+		{
+			"title": "",
+			"paragraph": "Matariki: Date varies (usually in June) - Matariki is the Māori New Year in New Zealand, marked by the rise of the Pleiades star cluster. It is celebrated with cultural and spiritual events."
+		},
+		{
+			"title": "",
+			"paragraph": "Racial New Year: Various dates - Some cultures, particularly in Southeast Asia, celebrate their own New Year based on local calendars. For example, the Thai Songkran festival and the Lao New Year (Pi Mai) are celebrated in April."
+		},
+		{
+			"title": "",
+			"paragraph": "Javanese New Year (Java): Date varies (usually in March) - The Javanese New Year is marked by a traditional Javanese calendar and includes rituals and ceremonies."
+		},
+		{
+			"title": "",
+			"paragraph": "Bengali New Year (Pohela Boishakh): April 14th or 15th - Celebrated in the Bengal region of South Asia, it marks the beginning of the Bengali calendar and is observed with colorful processions and cultural events."
+		},
+		{
+			"title": "The Mayan Calendar",
+			"paragraph": "The ancient Maya civilization had a highly sophisticated calendar system. They used a combination of a 260-day ritual calendar (the Tzolk'in) and a 365-day solar calendar (the Haab') to create a calendar round of 18,980 unique days."
+		},
+		{
+			"title": "The Aztec Calendar",
+			"paragraph": "The Aztec calendar, known as the Aztec Sun Stone, is a significant symbol of Aztec culture. It comprises two circular parts: the 260-day ritual calendar (tonalpohualli) and the 365-day solar calendar (xiuhpohualli). The tonalpohualli combines 20 day signs with 13 numbers, while the xiuhpohualli consists of 18 months, each with 20 days. To account for the missing 5 days, a 5-day period called Nemontemi was added. The calendar served religious, divinatory, and timekeeping purposes, reflecting the Aztec worldview with its rich cosmic symbolism and the face of the sun god Tonatiuh at its center."
+		},
+		{
+			"title": "Where does the 7 day week come from?",
+			"paragraph": "The seven-day week has ancient origins and likely began with the Babylonians around 600 BCE. They divided the lunar month into roughly seven-day phases. This concept spread and was later influenced by Judeo-Christian traditions. Each day is named after a celestial body or god. The seven-day week is now used worldwide for organizing time."
+		},
+		{
+			"title": "Where do the weekday names come from?",
+			"paragraph": "Sunday: Named after the Sun, it is traditionally the first day of the week in many cultures, as the Sun has been historically associated with the beginning of the week."
+		},
+		{
+			"title": "",
+			"paragraph": "Monday: Named after the Moon, it follows Sunday. Many cultures consider Monday as the second day of the week."
+		},
+		{
+			"title": "",
+			"paragraph": "Tuesday: Named after the Norse god Tyr (or Tiw), who was associated with war and law. In Romance languages, it is often named after Mars, the Roman god of war."
+		},
+		{
+			"title": "",
+			"paragraph": "Wednesday: Named after the Norse god Odin (or Woden), who was associated with wisdom and poetry. In Romance languages, it is often named after Mercury, the Roman god of communication."
+		},
+		{
+			"title": "",
+			"paragraph": "Thursday: Named after the Norse god Thor, who was associated with thunder and storms. In Romance languages, it is often named after Jupiter, the Roman god of the sky."
+		},
+		{
+			"title": "",
+			"paragraph": "Friday: Named after the Norse goddess Frigg (or Freyja), who was associated with love and fertility. In Romance languages, it is often named after Venus, the Roman goddess of love."
+		},
+		{
+			"title": "",
+			"paragraph": "Saturday: Named after the Roman god Saturn, who was associated with agriculture and time. It is traditionally the last day of the week in many cultures."
+		},
+		{
+			"title": "Where do the month names come from?",
+			"paragraph": "January: Named after Janus, the Roman god of doors and gates, who is often depicted with two faces, one looking backward into the old year and one looking forward into the new year."
+		},
+		{
+			"title": "",
+			"paragraph": "February: The name is believed to come from the Latin word \"februare,\" meaning \"to purify.\" February was a time of purification in the Roman calendar."
+		},
+		{
+			"title": "",
+			"paragraph": "March: Named after Mars, the Roman god of war, it was originally the first month of the Roman calendar."
+		},
+		{
+			"title": "",
+			"paragraph": "April: The name's origin is uncertain, but it may be derived from the Latin word \"aperire,\" meaning \"to open,\" possibly referring to the opening or blossoming of flowers and trees in spring."
+		},
+		{
+			"title": "",
+			"paragraph": "May: Named after Maia, an earth goddess of growing plants. It was a time of increased growth and fertility."
+		},
+		{
+			"title": "",
+			"paragraph": "June: Named after Juno, the Roman goddess of marriage and well-being. June was considered an auspicious month for weddings."
+		},
+		{
+			"title": "",
+			"paragraph": "July: Originally known as Quintilis, meaning \"fifth\" in Latin, as it was the fifth month of the Roman calendar. It was later renamed in honor of Julius Caesar."
+		},
+		{
+			"title": "",
+			"paragraph": "August: Originally known as Sextilis, meaning \"sixth\" in Latin, as it was the sixth month of the Roman calendar. It was later renamed in honor of Emperor Augustus."
+		},
+		{
+			"title": "",
+			"paragraph": "September: Derived from the Latin word \"septem,\" meaning \"seven,\" as it was originally the seventh month in the Roman calendar."
+		},
+		{
+			"title": "",
+			"paragraph": "October: Derived from the Latin word \"octo,\" meaning \"eight,\" as it was originally the eighth month in the Roman calendar."
+		},
+		{
+			"title": "",
+			"paragraph": "November: Derived from the Latin word \"novem,\" meaning \"nine,\" as it was originally the ninth month in the Roman calendar."
+		},
+		{
+			"title": "",
+			"paragraph": "December: Derived from the Latin word \"decem,\" meaning \"ten,\" as it was originally the tenth month in the Roman calendar."
+		},
+		{
+			"title": "Zodiac and Astrological Calendars",
+			"paragraph": "Astrological calendars, such as the Western zodiac, divide the year into distinct signs and influence astrology. People are associated with zodiac signs based on their birthdates."
+		},
+		{
+			"title": "Martian Day",
+			"paragraph": "On Mars, a day is called a sol, and it is approximately 24 hours and 39 minutes long. The Martian calendar helps adjust for the planet's longer day compared to Earth."
+		},
+		{
+			"title": "How long are days on other planets?",
+			"paragraph": "The length of a day, or the time it takes for a planet to complete one full rotation on its axis, varies from one planet to another due to their different sizes and rotational speeds."
+		},
+		{
+			"title": "",
+			"paragraph": "A day on Mercury lasts about 59 Earth days. Mercury has a slow rotation, and its day is almost as long as its year."
+		},
+		{
+			"title": "",
+			"paragraph": "A day on Venus is longer than its year. It takes about 243 Earth days for Venus to complete one rotation on its axis."
+		},
+		{
+			"title": "",
+			"paragraph": "A day on Earth is approximately 24 hours. This 24-hour rotation period is what defines a day in our calendar."
+		},
+		{
+			"title": "",
+			"paragraph": "A day on Mars, often called a sol, is approximately 24 hours and 39 minutes."
+		},
+		{
+			"title": "",
+			"paragraph": "Jupiter is a gas giant, and it has a very short rotation period. A day on Jupiter lasts about 9 hours and 56 minutes."
+		},
+		{
+			"title": "",
+			"paragraph": "Saturn, another gas giant, has a rotation period of about 10 hours and 33 minutes."
+		},
+		{
+			"title": "",
+			"paragraph": "Uranus, an ice giant, rotates more slowly than most planets. Its day lasts about 17 hours and 14 minutes."
+		},
+		{
+			"title": "",
+			"paragraph": "Neptune, another ice giant, has a day that is approximately 16 hours and 6 minutes long."
+		}
+	]
+}

@@ -1,0 +1,21 @@
+/* Styles for pitch black mode */
+
+.pitch-black {
+	filter: brightness(0.1) !important;
+}
+.pitch-black dialog {
+	filter: brightness(0.25) !important;
+}
+
+.invert:not(.pitch-black) {
+	filter: invert(1) hue-rotate(180deg);
+}
+.invert:not(.pitch-black) dialog {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+/* Day night border fix */
+
+.day-night * {
+	border-color: #fff !important;
+}
