@@ -11,26 +11,12 @@
 	import { fly } from 'svelte/transition';
 	import TailwindColors from 'tailwindcss/colors.js';
 
-	import BackgroundDayNightGradient from '$lib/components/features/misc/BackgroundDayNightGradient.svelte';
-	import BackgroundPattern from '$lib/components/features/misc/BackgroundPattern.svelte';
 	import Header from '$lib/components/layout/Header.svelte';
 	import Nav from '$lib/components/layout/Nav.svelte';
-	import SEO from '$lib/components/head/SEO.svelte';
-	import Loader from '$lib/components/ui/Loader.svelte';
-	import Toasts from '$lib/components/ui/Toast.svelte';
 	import { systemFontFamilies } from '$lib/data/consts';
 	import { isFullscreen } from '$lib/stores/fullscreen.svelte';
-	import {
-		dictionary,
-		dictionaryAbout,
-	} from '$lib/stores/languageDictionary';
+	import { dictionary } from '$lib/stores/languageDictionary';
 	import { settings } from '$lib/stores/settings';
-	import { hexToRgb } from '$lib/util/color';
-	import fetchLanguage from '$lib/util/fetchLanguage';
-	import sendAnalytics from '$lib/util/googleAnalytics';
-	import { importLegacyTheme } from '$lib/util/importLegacyTheme';
-	import initializeSettings from '$lib/util/initializeSettings';
-	import { setupInstall } from '$lib/util/install.svelte';
 	import { derived as derivedStore } from 'svelte/store';
 	// import { checkUpdates } from '$lib/util/updates';
 
@@ -104,13 +90,6 @@
 	// ================
 
 	onMount(() => {
-		// legacy support
-		$settings = importLegacyTheme($settings);
-
-		// Necessary to load user's setting language on page load
-		// otherwise they would just get whatever lang `hooks.server.ts` finds from browser/device setting
-		initializeSettings();
-
 		// Safeguard to use supported lang
 		const lang = derivedStore(settings, ($settings) => {
 			if (
@@ -123,20 +102,11 @@
 		});
 		// Update language dictionaries when language setting language changes
 		lang.subscribe((lang) => {
-			fetchLanguage(lang).then(dictionary.set);
-			fetchLanguage(lang, true).then(dictionaryAbout.set);
-
 			// Keep <html lang> in sync for SEO
 			if (browser) document.documentElement.lang = lang;
 		});
 
 		setTimeout(() => (loading = false), 1000);
-
-		// checkVersion();
-		setupInstall();
-
-		sendAnalytics();
-
 	});
 
 	// Gets version number from service worker and sets isMajorChange flag then checks for updates
@@ -170,30 +140,6 @@
 		TailwindColors[$settings.baseColorPalette][
 			$settings.darkMode ? 900 : 200
 		]
-	);
-
-	// we store numbers as list of rgb values for use in withOpacity in tailwind.config.cjs
-	const paletteVariablesHTML = $derived(
-		(
-			[
-				'50',
-				'100',
-				'200',
-				'300',
-				'400',
-				'500',
-				'600',
-				'700',
-				'800',
-				'900',
-			] as const
-		)
-			.map(
-				(lightness) =>
-					`--base-${lightness}: ${hexToRgb(TailwindColors[$settings.baseColorPalette][lightness])}; 
-				--accent-${lightness}: ${hexToRgb(TailwindColors[$settings.accentColorPalette][lightness])};`
-			)
-			.join('')
 	);
 
 	const navHidden = $derived(
@@ -230,18 +176,10 @@
 		class:invert={$settings.invertMode}
 		style:--font-family={$settings.fontFamily || systemFontFamilies}
 		style:--font-family-body={$settings.fontFamilyBody}
-		style={paletteVariablesHTML}
 	>
-		<SEO />
-
-		<Loader {loading} />
-		{#if $settings.dayNightMode}
-			<BackgroundDayNightGradient />
-		{/if}
+		{#if $settings.dayNightMode}{/if}
 
 		{#if !loading}
-			<Toasts />
-
 			<Nav bind:navOpen />
 			<Header bind:navOpen />
 			{#key page.url.pathname}
@@ -258,9 +196,6 @@
 						: 'relative overflow-x-auto md:col-start-2 md:col-end-3'}"
 				>
 					{@render children()}
-					{#if !$settings.pitchBlackMode}
-						<BackgroundPattern />
-					{/if}
 				</div>
 			{/key}
 		{/if}

@@ -1,11 +1,9 @@
 import type { Writable } from 'svelte/store';
 import type { DefaultColors } from 'tailwindcss/types/generated/colors';
 
-import type { Pattern } from '$lib/components/features/misc/BackgroundPattern.svelte';
 import type { fontFamilies } from '$lib/data/consts';
 import type { Theme } from '$lib/stores/themes';
 import localStore from '$lib/util/localStore';
-import uid from '$lib/util/uid';
 
 export interface Settings {
 	clock: {
@@ -29,7 +27,7 @@ export interface Settings {
 	};
 	pinnedPages: string[];
 	pattern: {
-		name: Pattern;
+		name: string;
 		opacity: 0.05 | 0.1 | 0.15 | 0.2;
 		zoom: 1 | 1.5 | 2 | 2.5;
 	};

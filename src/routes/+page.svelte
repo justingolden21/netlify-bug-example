@@ -3,11 +3,9 @@
 	import { onMount } from 'svelte';
 
 	import { dictionary } from '$lib/stores/languageDictionary';
-	import { setThemeFromURL } from '$lib/util/theme';
 
 	onMount(() => {
 		if (page.url.searchParams.has('theme')) {
-			setThemeFromURL('clock', page.url, $dictionary);
 		}
 	});
 </script>

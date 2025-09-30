@@ -1,24 +1,13 @@
 <script lang="ts">
 	// nav menu - contains pinned pages, settings, install and share buttons
 	import { browser } from '$app/environment';
-	import { page, navigating } from '$app/state';
+	import { page } from '$app/state';
 	import { onMount } from 'svelte';
 	import { scale } from 'svelte/transition';
 
-	import AppIcon from '$lib/components/ui/AppIcon.svelte';
-	import AppIconAnimated from '$lib/components/ui/AppIconAnimated.svelte';
-	import Button from '$lib/components/ui/Button.svelte';
-	import Icon from '$lib/components/ui/Icon.svelte';
-	import PageIcon from '$lib/components/ui/PageIcon.svelte';
 	import { isFullscreen } from '$lib/stores/fullscreen.svelte';
 	import { dictionary } from '$lib/stores/languageDictionary';
 	import { settings } from '$lib/stores/settings';
-	import {
-		installButtonClick,
-		showInstallButton,
-	} from '$lib/util/install.svelte';
-	import shareApp from '$lib/util/shareApp';
-	import { enableSwipeToToggleNav } from '$lib/util/swipeNav';
 
 	interface Props {
 		navOpen: boolean;
@@ -28,10 +17,7 @@
 
 	// Swipe to toggle nav logic
 
-	onMount(() => {
-		const stopSwipe = enableSwipeToToggleNav(() => (navOpen = true));
-		return stopSwipe;
-	});
+	onMount(() => {});
 
 	let startCloseX = 0;
 
@@ -116,13 +102,7 @@
 
 	{#if !$settings.smallerMenu && !$settings.alwaysCollapseMenu && !isFullscreen.value}
 		<div class="hidden md:flex items-center gap-4 pb-6 pl-4">
-			<div class="inline w-10">
-				{#if !$settings.screenshotMode}
-					<AppIconAnimated />
-				{:else}
-					<AppIcon />
-				{/if}
-			</div>
+			<div class="inline w-10"></div>
 			<h2 class="inline h4">
 				{$dictionary.appName}
 			</h2>
@@ -150,38 +130,11 @@
 							? ''
 							: 'mr-2'}"
 					>
-						{#key navigating?.to?.route.id === path}
-							<PageIcon page={pinnedPage} />
-						{/key}
 					</span>
 					{#if !$settings.smallerMenu}
 						{$dictionary.pageNames[pinnedPage]}
 					{/if}
 				</a>
-				<!-- show pin button if current page isn't pinned -->
-				{#if !$settings.smallerMenu && !$settings.pinnedPages.includes(pinnedPage)}
-					<Button
-						variant="ghost"
-						size="icon"
-						title={$dictionary.labels['Pin to menu']}
-						class="pin-btn ml-2 p-1 flex items-center justify-center absolute top-1/2 -translate-y-1/2 right-2 group"
-						onclick={() =>
-							($settings.pinnedPages = [
-								...$settings.pinnedPages,
-								pinnedPage,
-							])}
-					>
-						<Icon
-							name="pin"
-							size="sm"
-							className="transition-transform {$settings.pinnedPages.includes(
-								pinnedPage
-							)
-								? '-rotate-45 gorup-hover:rotate-0 group-hover:fill-none fill-base-500'
-								: 'group-hover:-rotate-45 group-hover:fill-base-500'}"
-						/>
-					</Button>
-				{/if}
 			</div>
 		{/if}
 	{/each}
@@ -195,9 +148,6 @@
 		<span
 			class="inline-block w-6 h-6 {$settings.smallerMenu ? '' : 'mr-2'}"
 		>
-			{#key navigating?.to?.route.id === '/more'}
-				<PageIcon page={'more'} />
-			{/key}
 		</span>
 		{#if !$settings.smallerMenu}
 			{$dictionary.pageNames['more']}
@@ -213,9 +163,6 @@
 		<span
 			class="inline-block w-6 h-6 {$settings.smallerMenu ? '' : 'mr-2'}"
 		>
-			{#key !!navigating?.to?.route.id?.startsWith('/about')}
-				<PageIcon page={'about'} />
-			{/key}
 		</span>
 		{#if !$settings.smallerMenu}
 			{$dictionary.pageNames['about']}
@@ -228,7 +175,6 @@
 			navOpen = false;
 		}}
 	>
-		<Icon name="settings" className={$settings.smallerMenu ? '' : 'mr-2'} />
 		{#if !$settings.smallerMenu}
 			{$dictionary.labels['Settings']}
 		{/if}
@@ -236,30 +182,8 @@
 
 	<span class="grow"></span>
 
-	{#if showInstallButton.value}
-		<button
-			onclick={installButtonClick}
-			class="p {$settings.smallerMenu ? '' : 'w-full'}"
-		>
-			<Icon
-				name="download"
-				className={$settings.smallerMenu ? '' : 'mr-2'}
-			/>
-			{#if !$settings.smallerMenu}
-				{$dictionary.labels['Install']}
-			{/if}
-		</button>
-	{/if}
-
 	{#if browser && navigator.share !== undefined}
-		<button
-			class="p {$settings.smallerMenu ? '' : 'w-full'}"
-			onclick={() => shareApp($dictionary, page.url.pathname)}
-		>
-			<Icon
-				name="share"
-				className={$settings.smallerMenu ? '' : 'mr-2'}
-			/>
+		<button class="p {$settings.smallerMenu ? '' : 'w-full'}">
 			{#if !$settings.smallerMenu}
 				{$dictionary.labels['Share']}
 			{/if}
