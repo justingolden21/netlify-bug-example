@@ -13,8 +13,10 @@
 	import { isFullscreen } from '$lib/stores/fullscreen.svelte';
 	import { dictionary } from '$lib/stores/languageDictionary';
 	import { settings } from '$lib/stores/settings';
-	import { installButtonClick, showInstallButton } from '$lib/util/install.svelte';
-	import { open } from '$lib/util/modal.svelte';
+	import {
+		installButtonClick,
+		showInstallButton,
+	} from '$lib/util/install.svelte';
 	import shareApp from '$lib/util/shareApp';
 	import { enableSwipeToToggleNav } from '$lib/util/swipeNav';
 
@@ -55,7 +57,7 @@
 		'pomodoro',
 		'chessclock',
 		'rubikscube',
-		'divider3' // more
+		'divider3', // more
 	] as const;
 </script>
 
@@ -64,7 +66,8 @@
 	class="bg-black/10 dark:bg-white/5 z-20 fixed inset-0 w-full md:hidden"
 	class:hidden={!navOpen}
 	class:md:hidden={!$settings.alwaysCollapseMenu && !isFullscreen.value}
-	onclick={() => (navOpen = false)}></button>
+	onclick={() => (navOpen = false)}
+></button>
 <!-- Touch listeners enable user to swipe to close nav
 	If user swipes left on nav and swipe is > 80px, close nav -->
 <nav
@@ -96,13 +99,19 @@
 		select-none
 		overflow-y-auto
 		print:hidden
-		{$settings.alwaysCollapseMenu || isFullscreen.value ? '' : 'md:relative md:translate-x-0'}
-		{$settings.smallerMenu ? '' : 'w-[18rem] min-w-[18rem] lg:w-[20rem] lg:min-w-[20rem]'}"
-	class:-translate-x-full={!navOpen}>
+		{$settings.alwaysCollapseMenu || isFullscreen.value
+		? ''
+		: 'md:relative md:translate-x-0'}
+		{$settings.smallerMenu
+		? ''
+		: 'w-[18rem] min-w-[18rem] lg:w-[20rem] lg:min-w-[20rem]'}"
+	class:-translate-x-full={!navOpen}
+>
 	<button
 		aria-label={$dictionary.labels['Smaller menu']}
 		class="btn-collapse hidden md:block right-0 top-0 bottom-0 absolute w-2"
-		onclick={() => ($settings.smallerMenu = !$settings.smallerMenu)}>
+		onclick={() => ($settings.smallerMenu = !$settings.smallerMenu)}
+	>
 	</button>
 
 	{#if !$settings.smallerMenu && !$settings.alwaysCollapseMenu && !isFullscreen.value}
@@ -134,8 +143,13 @@
 					class:active={page.url.pathname === path}
 					href={path}
 					onclick={() => (navOpen = false)}
-					class="p group {$settings.smallerMenu ? '' : 'w-full'}">
-					<span class="inline-block w-6 h-6 {$settings.smallerMenu ? '' : 'mr-2'}">
+					class="p group {$settings.smallerMenu ? '' : 'w-full'}"
+				>
+					<span
+						class="inline-block w-6 h-6 {$settings.smallerMenu
+							? ''
+							: 'mr-2'}"
+					>
 						{#key navigating?.to?.route.id === path}
 							<PageIcon page={pinnedPage} />
 						{/key}
@@ -151,13 +165,21 @@
 						size="icon"
 						title={$dictionary.labels['Pin to menu']}
 						class="pin-btn ml-2 p-1 flex items-center justify-center absolute top-1/2 -translate-y-1/2 right-2 group"
-						onclick={() => ($settings.pinnedPages = [...$settings.pinnedPages, pinnedPage])}>
+						onclick={() =>
+							($settings.pinnedPages = [
+								...$settings.pinnedPages,
+								pinnedPage,
+							])}
+					>
 						<Icon
 							name="pin"
 							size="sm"
-							className="transition-transform {$settings.pinnedPages.includes(pinnedPage)
+							className="transition-transform {$settings.pinnedPages.includes(
+								pinnedPage
+							)
 								? '-rotate-45 gorup-hover:rotate-0 group-hover:fill-none fill-base-500'
-								: 'group-hover:-rotate-45 group-hover:fill-base-500'}" />
+								: 'group-hover:-rotate-45 group-hover:fill-base-500'}"
+						/>
 					</Button>
 				{/if}
 			</div>
@@ -168,8 +190,11 @@
 		class:active={page.url.pathname === '/more'}
 		href="/more"
 		onclick={() => (navOpen = false)}
-		class="p {$settings.smallerMenu ? '' : 'w-full'}">
-		<span class="inline-block w-6 h-6 {$settings.smallerMenu ? '' : 'mr-2'}">
+		class="p {$settings.smallerMenu ? '' : 'w-full'}"
+	>
+		<span
+			class="inline-block w-6 h-6 {$settings.smallerMenu ? '' : 'mr-2'}"
+		>
 			{#key navigating?.to?.route.id === '/more'}
 				<PageIcon page={'more'} />
 			{/key}
@@ -183,8 +208,11 @@
 		class:active={page.url.pathname.startsWith('/about')}
 		href="/about"
 		onclick={() => (navOpen = false)}
-		class="p {$settings.smallerMenu ? '' : 'w-full'}">
-		<span class="inline-block w-6 h-6 {$settings.smallerMenu ? '' : 'mr-2'}">
+		class="p {$settings.smallerMenu ? '' : 'w-full'}"
+	>
+		<span
+			class="inline-block w-6 h-6 {$settings.smallerMenu ? '' : 'mr-2'}"
+		>
 			{#key !!navigating?.to?.route.id?.startsWith('/about')}
 				<PageIcon page={'about'} />
 			{/key}
@@ -198,8 +226,8 @@
 		class="p {$settings.smallerMenu ? '' : 'w-full'}"
 		onclick={() => {
 			navOpen = false;
-			open('settings');
-		}}>
+		}}
+	>
 		<Icon name="settings" className={$settings.smallerMenu ? '' : 'mr-2'} />
 		{#if !$settings.smallerMenu}
 			{$dictionary.labels['Settings']}
@@ -209,8 +237,14 @@
 	<span class="grow"></span>
 
 	{#if showInstallButton.value}
-		<button onclick={installButtonClick} class="p {$settings.smallerMenu ? '' : 'w-full'}">
-			<Icon name="download" className={$settings.smallerMenu ? '' : 'mr-2'} />
+		<button
+			onclick={installButtonClick}
+			class="p {$settings.smallerMenu ? '' : 'w-full'}"
+		>
+			<Icon
+				name="download"
+				className={$settings.smallerMenu ? '' : 'mr-2'}
+			/>
 			{#if !$settings.smallerMenu}
 				{$dictionary.labels['Install']}
 			{/if}
@@ -220,8 +254,12 @@
 	{#if browser && navigator.share !== undefined}
 		<button
 			class="p {$settings.smallerMenu ? '' : 'w-full'}"
-			onclick={() => shareApp($dictionary, page.url.pathname)}>
-			<Icon name="share" className={$settings.smallerMenu ? '' : 'mr-2'} />
+			onclick={() => shareApp($dictionary, page.url.pathname)}
+		>
+			<Icon
+				name="share"
+				className={$settings.smallerMenu ? '' : 'mr-2'}
+			/>
 			{#if !$settings.smallerMenu}
 				{$dictionary.labels['Share']}
 			{/if}

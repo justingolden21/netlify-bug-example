@@ -13,17 +13,17 @@
 
 	import BackgroundDayNightGradient from '$lib/components/features/misc/BackgroundDayNightGradient.svelte';
 	import BackgroundPattern from '$lib/components/features/misc/BackgroundPattern.svelte';
-	import KeyboardShortcuts from '$lib/components/features/settings/KeyboardShortcuts.svelte';
 	import Header from '$lib/components/layout/Header.svelte';
 	import Nav from '$lib/components/layout/Nav.svelte';
 	import SEO from '$lib/components/head/SEO.svelte';
 	import Loader from '$lib/components/ui/Loader.svelte';
-	import ModalManager from '$lib/components/ui/ModalManager.svelte';
-	import { requestWakeLock } from '$lib/components/features/settings/SettingsPanelGeneral.svelte';
 	import Toasts from '$lib/components/ui/Toast.svelte';
 	import { systemFontFamilies } from '$lib/data/consts';
 	import { isFullscreen } from '$lib/stores/fullscreen.svelte';
-	import { dictionary, dictionaryAbout } from '$lib/stores/languageDictionary';
+	import {
+		dictionary,
+		dictionaryAbout,
+	} from '$lib/stores/languageDictionary';
 	import { settings } from '$lib/stores/settings';
 	import { hexToRgb } from '$lib/util/color';
 	import fetchLanguage from '$lib/util/fetchLanguage';
@@ -53,7 +53,9 @@
 		if (navigating) navOpen = false;
 	});
 
-	function doubleClickFullscreen(event: Parameters<MouseEventHandler<HTMLElement>>[0]) {
+	function doubleClickFullscreen(
+		event: Parameters<MouseEventHandler<HTMLElement>>[0]
+	) {
 		const target = event.target as HTMLElement;
 		if (!$settings.doubleclickFullscreen) return;
 		const parent = target.parentNode as HTMLElement;
@@ -75,11 +77,21 @@
 	// ================
 	// reverse compatibility
 	// this works. don't touch it.
-	const oldGrays = ['warmGray', 'trueGray', 'gray', 'coolGray', 'blueGray'] as const;
+	const oldGrays = [
+		'warmGray',
+		'trueGray',
+		'gray',
+		'coolGray',
+		'blueGray',
+	] as const;
 	const newGrays = ['stone', 'neutral', 'zinc', 'gray', 'slate'] as const;
 	if (!$settings.recentVersion && $settings.baseColorPalette in oldGrays) {
 		$settings.baseColorPalette =
-			newGrays[oldGrays.indexOf($settings.baseColorPalette as ArrayValues<typeof oldGrays>)];
+			newGrays[
+				oldGrays.indexOf(
+					$settings.baseColorPalette as ArrayValues<typeof oldGrays>
+				)
+			];
 	}
 
 	// uncomment to simulate user with old palette setting
@@ -125,7 +137,6 @@
 
 		sendAnalytics();
 
-		if ($settings.wakeLock) requestWakeLock($dictionary);
 	});
 
 	// Gets version number from service worker and sets isMajorChange flag then checks for updates
@@ -156,12 +167,27 @@
 	// }
 
 	const themeColor = $derived(
-		TailwindColors[$settings.baseColorPalette][$settings.darkMode ? 900 : 200]
+		TailwindColors[$settings.baseColorPalette][
+			$settings.darkMode ? 900 : 200
+		]
 	);
 
 	// we store numbers as list of rgb values for use in withOpacity in tailwind.config.cjs
 	const paletteVariablesHTML = $derived(
-		(['50', '100', '200', '300', '400', '500', '600', '700', '800', '900'] as const)
+		(
+			[
+				'50',
+				'100',
+				'200',
+				'300',
+				'400',
+				'500',
+				'600',
+				'700',
+				'800',
+				'900',
+			] as const
+		)
 			.map(
 				(lightness) =>
 					`--base-${lightness}: ${hexToRgb(TailwindColors[$settings.baseColorPalette][lightness])}; 
@@ -170,7 +196,9 @@
 			.join('')
 	);
 
-	const navHidden = $derived($settings.alwaysCollapseMenu || isFullscreen.value);
+	const navHidden = $derived(
+		$settings.alwaysCollapseMenu || isFullscreen.value
+	);
 </script>
 
 <svelte:head>
@@ -178,21 +206,32 @@
 	<meta name="theme-color" content={themeColor} />
 	<meta name="color-scheme" content={$settings.darkMode ? 'dark' : 'light'} />
 	<meta name="msapplication-TileColor" content={themeColor} />
-	<link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color={themeColor} />
+	<link
+		rel="mask-icon"
+		href="/img/icons/safari-pinned-tab.svg"
+		color={themeColor}
+	/>
 </svelte:head>
 
 <svelte:body ondblclick={doubleClickFullscreen} />
 
-<div class:dark={$settings.darkMode} class:day-night={$settings.dayNightMode} class="contents">
+<div
+	class:dark={$settings.darkMode}
+	class:day-night={$settings.dayNightMode}
+	class="contents"
+>
 	<main
 		class="bg-gradient-to-tr dark:from-base-900 dark:to-base-800 from-base-50 to-white dark:text-base-50 text-base-900 transition-colors h-full overflow-hidden grid grid-rows-[auto_1fr] {navHidden
 			? ''
-			: 'md:grid-cols-[auto_1fr]'} {$settings.pitchBlackMode ? '!from-black !to-black' : ''}"
+			: 'md:grid-cols-[auto_1fr]'} {$settings.pitchBlackMode
+			? '!from-black !to-black'
+			: ''}"
 		class:pitch-black={$settings.pitchBlackMode}
 		class:invert={$settings.invertMode}
 		style:--font-family={$settings.fontFamily || systemFontFamilies}
 		style:--font-family-body={$settings.fontFamilyBody}
-		style={paletteVariablesHTML}>
+		style={paletteVariablesHTML}
+	>
 		<SEO />
 
 		<Loader {loading} />
@@ -200,7 +239,6 @@
 			<BackgroundDayNightGradient />
 		{/if}
 
-		<KeyboardShortcuts />
 		{#if !loading}
 			<Toasts />
 
@@ -217,15 +255,14 @@
 					in:fly={{ x: -160, duration: 250 }}
 					class="z-[1] overflow-auto md:row-start-2 md:row-end-3 {navHidden
 						? ''
-						: 'relative overflow-x-auto md:col-start-2 md:col-end-3'}">
+						: 'relative overflow-x-auto md:col-start-2 md:col-end-3'}"
+				>
 					{@render children()}
 					{#if !$settings.pitchBlackMode}
 						<BackgroundPattern />
 					{/if}
 				</div>
 			{/key}
-
-			<ModalManager />
 		{/if}
 	</main>
 </div>
