@@ -35,7 +35,7 @@
 
 	// Close nav when changing pages
 	$effect(() => {
-		if (navigating) navOpen = false;
+		// if (navigating) navOpen = false;
 	});
 
 	function doubleClickFullscreen(
