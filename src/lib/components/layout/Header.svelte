@@ -5,7 +5,6 @@
 	import { onMount } from 'svelte';
 
 	
-	import { isFullscreen, onFullscreenChange } from '$lib/stores/fullscreen.svelte';
 	import { dictionary } from '$lib/stores/languageDictionary';
 	import { settings } from '$lib/stores/settings';
 
@@ -25,18 +24,8 @@
 	// Minor bug: user has hideTitlebarWhenIdle off, then enters fullscreen, then turns it on, then leaves fullscreen, the setting will be turned off
 	// Fix: when the user changes the setting in fullscreen, update oldHideTitlebarWhenIdle
 
-	let oldHideTitlebarWhenIdle: boolean;
 	onMount(() => {
-		onFullscreenChange((isFullscreen) => {
-			if (isFullscreen) {
-				oldHideTitlebarWhenIdle = $settings.hideTitlebarWhenIdle;
-				$settings.hideTitlebarWhenIdle = true;
-			} else {
-				$settings.hideTitlebarWhenIdle = oldHideTitlebarWhenIdle;
-			}
-
-			timeSinceMove = isFullscreen ? new Date(0) : timeSinceMove;
-		});
+		
 	});
 
 	
@@ -56,7 +45,7 @@ to hide the cursor when idle -->
 	{#if navOpen && !$settings.smallerMenu}
 		<div
 			class="inline z-30 absolute w-10 ml-16
-		{$settings.alwaysCollapseMenu || isFullscreen.value ? '' : 'md:hidden'}">
+		{$settings.alwaysCollapseMenu || true ? '' : 'md:hidden'}">
 			
 		</div>
 	{/if}
@@ -66,7 +55,7 @@ to hide the cursor when idle -->
 	<div
 		class="flex items-start gap-2 short:hidden short:h-0 transition-opacity ">
 		<div
-			class="isolate z-10 inline-block ml-16 {$settings.alwaysCollapseMenu || isFullscreen.value
+			class="isolate z-10 inline-block ml-16 {$settings.alwaysCollapseMenu || true
 				? ''
 				: 'md:ml-0'}">
 			
