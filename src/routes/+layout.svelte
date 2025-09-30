@@ -12,7 +12,6 @@
 	import TailwindColors from 'tailwindcss/colors.js';
 
 	import Header from '$lib/components/layout/Header.svelte';
-	import Nav from '$lib/components/layout/Nav.svelte';
 	import { systemFontFamilies } from '$lib/data/consts';
 	import { isFullscreen } from '$lib/stores/fullscreen.svelte';
 	import { dictionary } from '$lib/stores/languageDictionary';
@@ -180,7 +179,6 @@
 		{#if $settings.dayNightMode}{/if}
 
 		{#if !loading}
-			<Nav bind:navOpen />
 			<Header bind:navOpen />
 			{#key page.url.pathname}
 				<!--
