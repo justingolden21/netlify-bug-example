@@ -179,7 +179,7 @@
 		{#if $settings.dayNightMode}{/if}
 
 		{#if !loading}
-			<Header bind:navOpen />
+			<Header />
 			{#key page.url.pathname}
 				<!--
 					Page transitions
