@@ -1,8 +1,6 @@
 <script lang="ts">
 	// header - contains page title, menu, and quick action buttons
-	import { browser } from '$app/environment';
 	import { page } from '$app/state';
-	import { onMount } from 'svelte';
 
 	
 	import { dictionary } from '$lib/stores/languageDictionary';
@@ -15,23 +13,10 @@
 	let { navOpen = $bindable() }: Props = $props();
 
 
-	let timeSinceMove = $state(new Date());
-	$effect(() => {
-		if (browser) timeSinceMove = new Date();
-	});
-
-
-	// Minor bug: user has hideTitlebarWhenIdle off, then enters fullscreen, then turns it on, then leaves fullscreen, the setting will be turned off
-	// Fix: when the user changes the setting in fullscreen, update oldHideTitlebarWhenIdle
-
-	onMount(() => {
-		
-	});
 
 	
 </script>
 
-<svelte:window onmousemove={() => (timeSinceMove = new Date())} />
 
 <!-- Cover the page in a div with `cursor-none` that only appears when idle
 to hide the cursor when idle -->
