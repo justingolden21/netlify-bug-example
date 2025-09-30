@@ -1,17 +1,16 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import Header from '$/lib/components/layout/Header.svelte';
 
 	let navOpen = $state(false);
-	let loading = $state(true);
 
-	onMount(() => {
-		setTimeout(() => (loading = false), 1000);
-	});
+	interface Props {
+		children: import('svelte').Snippet;
+	}
+	const { children }: Props = $props();
 </script>
 
 <main>
-	{#if !loading}
-		<Header bind:navOpen />
-	{/if}
+	<Header bind:navOpen />
+
+	{@render children()}
 </main>
